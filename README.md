@@ -21,13 +21,13 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 This project aims to create a medical corpus derived from medical case-studies. The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl. 
 
 # Digital Competence Centre [DCC] for Practice-based Research
-This DSS project in Allied Heathcare is a collaboration between 
+This DSS project in Allied Heathcare is a collaboration between IGV, the CMI Minor Data Enginering and the Prometheus data-lab.
 The project is supported by the Program for AI & ethics [https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex]  and DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research].
 
 
 # References
 - https://www.researchgate.net/publication/360808997_Decision_Support_Systems_in_nursing_allied_healthcare_Building_an_AI-based_Learning_Health_System_by_use_op_Natural_Language_Processing_Tools_Dag_van_de_Fysiotherapeut_21_MEI_2022
-- 
+
 - https://www.researchgate.net/publication/360933051_Creating_a_Data_Fabric_through_Easy-to-Use_Cloud_Computing_DCC_SURF-Pilot_3de-ronde_2022_Produced_by_Living-Lab_AiRA_Hub_voor_Data_Responsible_AI_Hogeschool_Rotterdam_httpswwwsurfnlennewssix-new-pilot
 
 

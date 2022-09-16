@@ -4,15 +4,11 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 # Project Principles 
 
-- Aim to completely remove manual intervention in numerical processing.
+- Data science is about solving problems [human-in-the-loop], not models or algorithms.
 
-- Data science is about solving problems, not models or algorithms.
+- All validation of data, hypotheses and performance should be tracked, reviewed.
 
-- All validation of data, hypotheses and performance should be tracked, reviewed and automated.
-
-- Prior to building a model, construct an evaluation framework with end-to-end business focused acceptance criteria.
-
-- A product needs a pool of measures to evaluate its quality. A single number cannot capture the complexity of reality.
+- A product needs a definition-of-done to evaluate its quality.
 
 - Even research can be broken down into clearly defined tasks. The smallest of iterations should be preferred in acquiring, integrating and correcting knowledge.
 

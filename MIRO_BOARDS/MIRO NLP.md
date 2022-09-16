@@ -1,1 +1,1 @@
-[I'm an inline-style link](https://www.google.com)
+[NLP MIRO-board](https://miro.com/app/board/uXjVOa_6fiQ=/)

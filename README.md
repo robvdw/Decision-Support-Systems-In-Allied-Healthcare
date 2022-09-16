@@ -19,4 +19,4 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 # Project AIM
 
 This project aims to create a medical corpus derived from medical case-studies. The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl. 
-- The project is suported by the Program for AI & ethics of the Hogeschool Rotterdam and DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research].
+  - The project is supported by the Program for AI & ethics of the Hogeschool Rotterdam and DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research].

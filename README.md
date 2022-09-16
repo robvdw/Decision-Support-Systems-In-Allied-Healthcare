@@ -15,3 +15,7 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 - Don’t neglect assumptions in models. Make them explicit then aim to have them either verified or removed.
 
 (Adapted from http://datasciencemanifesto.org/)
+
+# Project AIm
+
+This project aims to create a medical corpus derived from medical case-studies. The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl.

@@ -3,8 +3,6 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 
 # Project Principles 
-(see http://datasciencemanifesto.org/)
-
 
 - Aim to completely remove manual intervention in numerical processing.
 
@@ -19,3 +17,5 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 - Even research can be broken down into clearly defined tasks. The smallest of iterations should be preferred in acquiring, integrating and correcting knowledge.
 
 - Don’t neglect assumptions in models. Make them explicit then aim to have them either verified or removed.
+
+(Adapted from http://datasciencemanifesto.org/)

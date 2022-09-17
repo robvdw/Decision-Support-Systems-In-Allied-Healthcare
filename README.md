@@ -64,6 +64,8 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 
 6. https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa
 
+7. https://nictiz.nl/publicaties/snomed-ct-meer-dan-een-terminologiestelsel/
+
 
 
 

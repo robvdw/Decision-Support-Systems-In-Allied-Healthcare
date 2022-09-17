@@ -66,6 +66,8 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 
 7. https://nictiz.nl/publicaties/snomed-ct-meer-dan-een-terminologiestelsel/
 
+8. https://www.datascience-pm.com/crisp-dm-2/
+
 
 
 

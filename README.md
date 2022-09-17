@@ -3,7 +3,7 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 Desalnietemin, deze enorme hoeveelheid klinische tekstgegevens (Big data) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken in het klinische domein. 
 
-Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over een verzamelingen tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals geassocieerde gezondheidszorg ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
+Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over een verzamelingen tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
 
 
 # Project Principles 

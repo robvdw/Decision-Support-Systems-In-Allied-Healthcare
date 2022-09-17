@@ -6,7 +6,7 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 - Data science is about solving problems [human-in-the-loop], not models or algorithms.
 
-- All validation of data, hypotheses and performance should be tracked, reviewed.
+- All validation of data, hypotheses and performance should be tracked and properly peer-reviewed.
 
 - A product needs a definition-of-done to evaluate its quality.
 

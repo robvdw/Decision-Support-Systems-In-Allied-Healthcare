@@ -5,7 +5,7 @@ Desalnietemin, deze enorme hoeveelheid klinische tekstgegevens (Big data) leent 
 
 Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels --ontologieën--- voor de zorg zoals SNOMED [https://nictiz.nl/publicaties/verborgen-kant-van-snomed/].
 
-Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over een verzamelingen tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
+Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
 
 
 # Project Principles 

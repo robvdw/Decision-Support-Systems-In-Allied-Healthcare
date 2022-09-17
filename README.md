@@ -42,6 +42,9 @@ The project is supported by the Program for AI & ethics [https://www.hogeschoolr
 ***********
 
 # References
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
 - https://www.hogeschoolrotterdam.nl/contentassets/e0eaa57e3ee14863911def576f414414/kennisagenda-dsh-final.pdf
 
 - https://www.hogeschoolrotterdam.nl/contentassets/5bbfcb19052a4bf29b6ac82c988343e4/visie-document-data-ondersteunde-gezondheidszorg-en-innovatie-8-maart-2021-2.pdf

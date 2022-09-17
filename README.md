@@ -4,7 +4,8 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 # Project Principles 
 
-https://github.com/robvdw/Decision-Support-Systems-In-Allied-Healthcare/blob/main/FIGs/FLOW_DESIGN_DS_vs_ES_NOV_2021.png
+![image](https://user-images.githubusercontent.com/684692/190854318-53c7040b-9d54-4cc7-a19a-a281349d6145.png)
+
 
 - Data science is about solving problems [human-in-the-loop], not models or algorithms.
 

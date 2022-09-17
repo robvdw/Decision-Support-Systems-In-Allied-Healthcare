@@ -21,7 +21,7 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies. 
+This project aims to create a medical corpus derived from medical case-studies. The endproduct shoult be in the form of a wel documented protocol 
 
 That is, utimately making medical data freely exchangeable between the various professionals within the bachelor IvG and other research institutes of Rotterdam University of Applied Sciences.
 
@@ -32,7 +32,10 @@ This DSS project in Allied Heathcare is a collaboration between IGV, the CMI Min
 The project is supported by the Program for AI & ethics [https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex], DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research] and Data Supported Healthcare: Zorgtech010 data-science unit
 [https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/].
 
+# Stakeholders
 
+***********
+***********
 
 # References
 - https://www.hogeschoolrotterdam.nl/contentassets/e0eaa57e3ee14863911def576f414414/kennisagenda-dsh-final.pdf

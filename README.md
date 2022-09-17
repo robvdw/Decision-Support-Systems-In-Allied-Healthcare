@@ -25,7 +25,7 @@ Voordat dit mogelijk is moet je kunnen beschikken over een verzamelingen tekst o
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies. The endproduct shoult be in the form of a wel documented protocol 
+This project aims to create a medical corpus derived from medical case-studies. The endproduct should be in the form of a wel documented digital-protocol that can be employed by allied healthcare processional to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
 That is, utimately making medical data freely exchangeable between the various professionals within the bachelor IvG and other research institutes of Rotterdam University of Applied Sciences.
 

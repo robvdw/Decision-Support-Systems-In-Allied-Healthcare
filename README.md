@@ -42,7 +42,8 @@ The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-dr
 
 # Collaborative Relationships in Translational Medical Research
 This DSS project foccuses on practice-based research in Allied Heathcare. It is a highly interdisciplinary collaboration between 
-IGV, the CMI Minor Data Enginering and the Prometheus data-lab.
+IGV [https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/], the CMI Minor Data Enginering [https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/] and the Prometheus Data-Lab [https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/].
+
 The project is supported by the Program for AI & Ethics [https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex], DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research] and Data Supported Healthcare: Zorgtech010 data-science unit
 [https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/].
 

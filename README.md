@@ -20,7 +20,7 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 - A product needs a definition-of-done to evaluate its quality.
 
-- Even research can be broken down into clearly defined tasks. The smallest of iterations should be preferred in acquiring, integrating and correcting knowledge.
+- Research must be broken down into clearly defined tasks. The smallest of iterations should be preferred in acquiring, integrating and correcting knowledge.
 
 - Don’t neglect assumptions in models. Make them explicit then aim to have them either verified or removed.
 

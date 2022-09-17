@@ -21,7 +21,11 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies. The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl. 
+This project aims to create a medical corpus derived from medical case-studies. 
+
+That is, utimately making medical data freely exchangeable between the various professionals within the bachelor IvG and other research institutes of Rotterdam University of Applied Sciences.
+
+The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl. 
 
 # Digital Competence Centre [DCC] for Practice-based Research
 This DSS project in Allied Heathcare is a collaboration between IGV, the CMI Minor Data Enginering and the Prometheus data-lab.

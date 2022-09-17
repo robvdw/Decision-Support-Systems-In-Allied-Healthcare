@@ -56,7 +56,7 @@ The project is supported by the Program for AI & ethics [https://www.hogeschoolr
 - https://www.researchgate.net/publication/360933051_Creating_a_Data_Fabric_through_Easy-to-Use_Cloud_Computing_DCC_SURF-Pilot_3de-ronde_2022_Produced_by_Living-Lab_AiRA_Hub_voor_Data_Responsible_AI_Hogeschool_Rotterdam_httpswwwsurfnlennewssix-new-pilot
 
 - https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa
-- 
+
 
 
 

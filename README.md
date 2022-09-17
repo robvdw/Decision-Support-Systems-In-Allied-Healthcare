@@ -43,7 +43,7 @@ The project is supported by the Program for AI & ethics [https://www.hogeschoolr
 
 # References
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[NLP reference documentation]([https://www.google.com](https://miro.com/app/board/uXjVOa_6fiQ=/?share_link_id=282988859639) "Miro Board")
 
 - https://www.hogeschoolrotterdam.nl/contentassets/e0eaa57e3ee14863911def576f414414/kennisagenda-dsh-final.pdf
 

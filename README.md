@@ -40,8 +40,8 @@ The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-dr
 ***********
 ***********
 
-# Translational Medical Research
-This DSS project foccuses on practice-based research in Allied Heathcare. It is a highly transdisciplinary collaboration between 
+# Collaborative Relationships in Translational Medical Research
+This DSS project foccuses on practice-based research in Allied Heathcare. It is a highly interdisciplinary collaboration between 
 IGV [https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/], the CMI Minor Data Enginering [https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/] and the Prometheus Data-Lab [https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/].
 
 The project is supported by the Program for AI & Ethics [https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex], DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research] and Data Supported Healthcare: Zorgtech010 data-science unit
@@ -52,17 +52,17 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 
 # References
 
-- NLP reference documentation: https://miro.com/app/board/uXjVOa_6fiQ=/?share_link_id=647822840290
+1. NLP reference documentation: https://miro.com/app/board/uXjVOa_6fiQ=/?share_link_id=647822840290
 
-- https://www.hogeschoolrotterdam.nl/contentassets/e0eaa57e3ee14863911def576f414414/kennisagenda-dsh-final.pdf
+2. https://www.hogeschoolrotterdam.nl/contentassets/e0eaa57e3ee14863911def576f414414/kennisagenda-dsh-final.pdf
 
-- https://www.hogeschoolrotterdam.nl/contentassets/5bbfcb19052a4bf29b6ac82c988343e4/visie-document-data-ondersteunde-gezondheidszorg-en-innovatie-8-maart-2021-2.pdf
+3. https://www.hogeschoolrotterdam.nl/contentassets/5bbfcb19052a4bf29b6ac82c988343e4/visie-document-data-ondersteunde-gezondheidszorg-en-innovatie-8-maart-2021-2.pdf
 
-- https://www.researchgate.net/publication/360808997_Decision_Support_Systems_in_nursing_allied_healthcare_Building_an_AI-based_Learning_Health_System_by_use_op_Natural_Language_Processing_Tools_Dag_van_de_Fysiotherapeut_21_MEI_2022
+4. https://www.researchgate.net/publication/360808997_Decision_Support_Systems_in_nursing_allied_healthcare_Building_an_AI-based_Learning_Health_System_by_use_op_Natural_Language_Processing_Tools_Dag_van_de_Fysiotherapeut_21_MEI_2022
 
-- https://www.researchgate.net/publication/360933051_Creating_a_Data_Fabric_through_Easy-to-Use_Cloud_Computing_DCC_SURF-Pilot_3de-ronde_2022_Produced_by_Living-Lab_AiRA_Hub_voor_Data_Responsible_AI_Hogeschool_Rotterdam_httpswwwsurfnlennewssix-new-pilot
+5. https://www.researchgate.net/publication/360933051_Creating_a_Data_Fabric_through_Easy-to-Use_Cloud_Computing_DCC_SURF-Pilot_3de-ronde_2022_Produced_by_Living-Lab_AiRA_Hub_voor_Data_Responsible_AI_Hogeschool_Rotterdam_httpswwwsurfnlennewssix-new-pilot
 
-- https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa
+6. https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa
 
 
 

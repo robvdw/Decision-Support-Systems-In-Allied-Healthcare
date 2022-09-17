@@ -7,11 +7,12 @@ Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction 
 
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
 
+***********
+***********
 
 # Project Principles 
 
 ![image](https://user-images.githubusercontent.com/684692/190854318-53c7040b-9d54-4cc7-a19a-a281349d6145.png)
-
 
 - Data science is about solving problems [human-in-the-loop], not models or algorithms.
 
@@ -25,6 +26,9 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 (Adapted from http://datasciencemanifesto.org/)
 
+***********
+***********
+
 # Project AIM
 
 This project aims to create a medical corpus derived from medical case-studies trough the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM] [https://www.datascience-pm.com/crisp-dm-2/]. The endproduct should be in the form of a wel documented digital-protocol that can be employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
@@ -32,6 +36,9 @@ This project aims to create a medical corpus derived from medical case-studies t
 That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of Rotterdam University of Applied Sciences [https://www.rotterdamuas.com/collaboration/].
 
 The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl. 
+
+***********
+***********
 
 # Digital Competence Centre [DCC] for Practice-based Research
 This DSS project in Allied Heathcare is a collaboration between IGV, the CMI Minor Data Enginering and the Prometheus data-lab.

@@ -27,7 +27,7 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies. The endproduct should be in the form of a wel documented digital-protocol that can be employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
+This project aims to create a medical corpus derived from medical case-studies trough the use of data enigineering + data scince techniques. The endproduct should be in the form of a wel documented digital-protocol that can be employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
 That is, utimately making medical data freely exchangeable between the various professionals within the bachelor IvG and other research institutes of Rotterdam University of Applied Sciences.
 
@@ -54,5 +54,9 @@ The project is supported by the Program for AI & ethics [https://www.hogeschoolr
 - https://www.researchgate.net/publication/360808997_Decision_Support_Systems_in_nursing_allied_healthcare_Building_an_AI-based_Learning_Health_System_by_use_op_Natural_Language_Processing_Tools_Dag_van_de_Fysiotherapeut_21_MEI_2022
 
 - https://www.researchgate.net/publication/360933051_Creating_a_Data_Fabric_through_Easy-to-Use_Cloud_Computing_DCC_SURF-Pilot_3de-ronde_2022_Produced_by_Living-Lab_AiRA_Hub_voor_Data_Responsible_AI_Hogeschool_Rotterdam_httpswwwsurfnlennewssix-new-pilot
+
+- https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa
+- 
+
 
 

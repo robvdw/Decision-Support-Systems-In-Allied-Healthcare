@@ -27,7 +27,7 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies trough the use of data enigineering + data scince techniques. The endproduct should be in the form of a wel documented digital-protocol that can be employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
+This project aims to create a medical corpus derived from medical case-studies trough the use of data enigineering [DE] + data science [DS] techniques. The endproduct should be in the form of a wel documented digital-protocol that can be employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
 That is, utimately making medical data freely exchangeable between the various professionals within the bachelor IvG and other research institutes of Rotterdam University of Applied Sciences.
 

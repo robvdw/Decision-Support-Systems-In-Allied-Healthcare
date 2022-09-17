@@ -1,7 +1,7 @@
 # Decision Support Systems [DSS] in Allied Healthcare
 De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste decennium heeft een overvloed aan klinische tekst opgeleverd die veelal ongestructureerd is en onbenut blijft.  Een groot deel van het geld voor patiëntenzorg verdwijnt hierdoor in de zakken van grote softwareleveranciers. Deze monopolie positie heeft er toe geleid dat de interoperabiliteit van het EPD ---koppelen van  meerdere informatiesystemen--- nogal te wensen over laat volgens de Nederlandse academische ziekenhuizen [https://www.skipr.nl/nieuws/ziekenhuizen-openen-in-2doc-frontale-aanval-op-chipsoft/].
 
-Desalnietemin, deze enorme hoeveelheid klinische tekstgegevens (Big data) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
+Desalnietemin, deze enorme hoeveelheid klinische tekstgegevens ---Big data---  [https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa] leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
 
 Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels --ontologieën--- voor de zorg zoals SNOMED [https://nictiz.nl/publicaties/verborgen-kant-van-snomed/].
 

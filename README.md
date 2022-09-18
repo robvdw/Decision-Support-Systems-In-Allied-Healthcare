@@ -69,6 +69,8 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 
 8. https://www.datascience-pm.com/crisp-dm-2/
 
+9. https://www.zorgvisie.nl/content/uploads/sites/2/2018/04/Epd-overzicht2018.pdf
+
 
 
 

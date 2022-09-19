@@ -32,7 +32,7 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies trough the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM] [https://www.datascience-pm.com/crisp-dm-2/]. The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
+This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM] [https://www.datascience-pm.com/crisp-dm-2/]. The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
 That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of Rotterdam University of Applied Sciences [https://www.rotterdamuas.com/collaboration/].
 

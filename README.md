@@ -2,7 +2,7 @@
 De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste decennium heeft een overvloed aan klinische tekst opgeleverd die veelal ongestructureerd is en onbenut blijft.  Een complicerende factor is dat EPDs in Nederlandse ziekenhuizen door slechts een drietal softwareleveranciers wordt beheerd
 [https://www.zorgvisie.nl/epd-overzicht/]. Deze monopolie positie heeft er toe geleid dat de interoperabiliteit van het EPD ---koppelen van  meerdere informatiesystemen--- nogal te wensen over laat volgens de Nederlandse academische ziekenhuizen [https://www.skipr.nl/nieuws/ziekenhuizen-openen-in-2doc-frontale-aanval-op-chipsoft/].
 
-Desalnietemin, deze enorme hoeveelheid klinische tekstgegevens ---Big data---  [https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa] leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
+Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens ---Big data---  [https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa] leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
 
 Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels ---ontologieën--- voor de zorg zoals SNOMED [https://nictiz.nl/publicaties/verborgen-kant-van-snomed/].
 
@@ -32,7 +32,7 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies trough the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM] [https://www.datascience-pm.com/crisp-dm-2/]. The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
+This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM] [https://www.datascience-pm.com/crisp-dm-2/]. The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
 That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of Rotterdam University of Applied Sciences [https://www.rotterdamuas.com/collaboration/].
 

@@ -71,6 +71,8 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 
 9. https://www.zorgvisie.nl/content/uploads/sites/2/2018/04/Epd-overzicht2018.pdf
 
+10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
+
 
 
 

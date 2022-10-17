@@ -19,6 +19,8 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 ![image](https://user-images.githubusercontent.com/684692/190854318-53c7040b-9d54-4cc7-a19a-a281349d6145.png)
 
+- [Do no Harm](https://www.newyorker.com/magazine/2015/05/18/anatomy-of-error)
+
 - Data science is about solving problems [human-in-the-loop], not models or algorithms.
 
 - All validation of data, hypotheses and performance should be tracked and properly peer-reviewed.

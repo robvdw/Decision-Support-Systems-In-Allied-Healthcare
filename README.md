@@ -8,6 +8,11 @@ Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction 
 
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
 
+<img width="1004" alt="NER_EXAMPLE" src="https://user-images.githubusercontent.com/684692/196113263-a1db9c60-6936-4120-8b89-3346bb0e7e1d.png">
+https://demos.explosion.ai/displacy-ent
+
+
+
 ***********
 ***********
 

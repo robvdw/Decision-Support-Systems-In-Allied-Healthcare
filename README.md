@@ -1,18 +1,3 @@
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-
- 
 # Decision Support Systems [DSS] in Allied Healthcare
 De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste decennium heeft een overvloed aan klinische tekst opgeleverd die veelal ongestructureerd is en onbenut blijft.  Een complicerende factor is dat EPDs in Nederlandse ziekenhuizen door slechts een [drietal softwareleveranciers](https://www.zorgvisie.nl/epd-overzicht/) wordt beheerd
 . Deze monopolie positie heeft er toe geleid dat de interoperabiliteit van het EPD ---koppelen van  meerdere informatiesystemen--- nogal te wensen over laat volgens de [Nederlandse academische ziekenhuizen](https://www.skipr.nl/nieuws/ziekenhuizen-openen-in-2doc-frontale-aanval-op-chipsoft/).
@@ -91,6 +76,38 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 9. https://www.zorgvisie.nl/content/uploads/sites/2/2018/04/Epd-overzicht2018.pdf
 
 10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
+
+
+
+
+
+
+# CHARTS + CODING
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+
+```mermaid
+graph TD;
+    A[start] --> B{second node asking a question}
+    B -->|Yes| C[OK]
+    C --> D[go back]
+    D --> B
+    B ---->|No| E[End]
+```
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 
 

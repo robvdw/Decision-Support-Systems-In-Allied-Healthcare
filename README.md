@@ -1,12 +1,16 @@
 # Decision Support Systems [DSS] in Allied Healthcare
-De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste decennium heeft een overvloed aan klinische tekst opgeleverd die veelal ongestructureerd is en onbenut blijft.  Een complicerende factor is dat EPDs in Nederlandse ziekenhuizen door slechts een drietal softwareleveranciers wordt beheerd
-[https://www.zorgvisie.nl/epd-overzicht/]. Deze monopolie positie heeft er toe geleid dat de interoperabiliteit van het EPD ---koppelen van  meerdere informatiesystemen--- nogal te wensen over laat volgens de Nederlandse academische ziekenhuizen [https://www.skipr.nl/nieuws/ziekenhuizen-openen-in-2doc-frontale-aanval-op-chipsoft/].
+De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste decennium heeft een overvloed aan klinische tekst opgeleverd die veelal ongestructureerd is en onbenut blijft.  Een complicerende factor is dat EPDs in Nederlandse ziekenhuizen door slechts een [drietal softwareleveranciers](https://www.zorgvisie.nl/epd-overzicht/) wordt beheerd
+. Deze monopolie positie heeft er toe geleid dat de interoperabiliteit van het EPD ---koppelen van  meerdere informatiesystemen--- nogal te wensen over laat volgens de [Nederlandse academische ziekenhuizen](https://www.skipr.nl/nieuws/ziekenhuizen-openen-in-2doc-frontale-aanval-op-chipsoft/).
 
-Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens ---Big data---  [https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa] leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
+Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens [---Big data---](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
 
-Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels ---ontologieën--- voor de zorg zoals SNOMED [https://nictiz.nl/publicaties/verborgen-kant-van-snomed/].
+Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels [---ontologieën--- voor de zorg zoals SNOMED](https://nictiz.nl/publicaties/verborgen-kant-van-snomed/).
 
-Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland ---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten--- [https://en.wikipedia.org/wiki/Allied_Healthcare].
+Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland [---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten---](https://en.wikipedia.org/wiki/Allied_Healthcare).
+
+<img width="1004" alt="NER_EXAMPLE" src="https://user-images.githubusercontent.com/684692/196113263-a1db9c60-6936-4120-8b89-3346bb0e7e1d.png">
+
+[Click here to try out Named Entity Recognition [NER] visualizing demo](https://demos.explosion.ai/displacy-ent)
 
 ***********
 ***********
@@ -14,6 +18,8 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 # Project Principles 
 
 ![image](https://user-images.githubusercontent.com/684692/190854318-53c7040b-9d54-4cc7-a19a-a281349d6145.png)
+
+- [Do no Harm](https://www.newyorker.com/magazine/2015/05/18/anatomy-of-error)
 
 - Data science is about solving problems [human-in-the-loop], not models or algorithms.
 
@@ -32,21 +38,21 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM] [https://www.datascience-pm.com/crisp-dm-2/]. The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
+This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
-That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of Rotterdam University of Applied Sciences [https://www.rotterdamuas.com/collaboration/].
+That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of [Rotterdam University of Applied Sciences](https://www.rotterdamuas.com/collaboration/).
 
-The raw data wil be stored on Research-Drive [https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data] which is a EU GDPR complient service from SURF.nl. 
+The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data) which is a EU GDPR complient service from SURF.nl. 
 
 ***********
 ***********
 
 # Translational Practice-based Research
 This DSS research project focuses on improving allied heathcare. It is a highly transdisciplinary collaboration between 
-IGV [https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/], the CMI Minor Data Enginering [https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/] and the Prometheus Data-Lab [https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/].
+[IGV](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/), the [CMI Minor Data Enginering](https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/) and the [Prometheus Data-Lab](https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/).
 
-The project is supported by the Program for AI & Ethics [https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex], DCC SURF-pilot project [https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research] and Data Supported Healthcare: Zorgtech010 data-science unit
-[https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/].
+The project is supported by the [Program for AI & Ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex), [DCC SURF-pilot project] (https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research) and [Data Supported Healthcare: Zorgtech010 data-science unit]
+(https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/).
 
 ***********
 ***********
@@ -72,6 +78,38 @@ The project is supported by the Program for AI & Ethics [https://www.hogeschoolr
 9. https://www.zorgvisie.nl/content/uploads/sites/2/2018/04/Epd-overzicht2018.pdf
 
 10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
+
+
+
+
+
+
+# CHARTS + CODING
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+
+```mermaid
+graph TD;
+    A[start] --> B{second node asking a question}
+    B -->|Yes| C[OK]
+    C --> D[go back]
+    D --> B
+    B ---->|No| E[End]
+```
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 
 

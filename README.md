@@ -57,18 +57,16 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 ***********
 ***********
 
-# NLP OPEN-SOURCE platforms
+# NLP OPEN-SOURCE Python Tools
 
-ToolKit | NLP tasks | Distinctive features  | Neural networks | Best for | Not suitable for                          
+Tool | NLP tasks | Distinctive features  | Neural networks | Best for | Not suitable for                          
 --------|-----------|-----------------------|-----------------|----------|-----------------
 NLTK    | Classification, tokenization, stemming. tagging. parsing. semantic reasoning | Over 50 corpora Package for chatbots Multilingual support| No | Training, Education, Research | Complex projects with large datasets      
-Gensim | Text similarity. text summarization, topic modeling | Scalability and high performance Unsupervised training | No | Converting words and documents into vectors| Supervised text modeling Full NLP pipeline
+Gensim | Text similarity. text summarization, SOTA topic modeling | Scalability and high performance Unsupervised training | No | Converting words and documents into vectors| Supervised text modeling Full NLP pipeline
 SpaCy  | Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis | 50+ languages available for tokenization Easy to learn and use | Yes | Business production |Teaching and research                     
 Stanford Core NLP | Tokenization, multi- wordtoken expansion. lemmatization, POS tagging, dependency parsing | Different usage models Multilingual | Yes | Fully functional NLP systems | Beginners                                 
-Text Blob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping |Largescale productions § altexsoft       
-MonkeyLearn | Tokenization, Text Vectorization, Semantic Analysis,   | NLP made simple, User-friendly | Yes | pre-trained models, customized Machine Learning | Teaching (Expensive)
-
-
+Text Blob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping | Largescale productions § altexsoft       
+PyTorch-NLP | word2vector encoding | neural network, pre-trained embeddings | Yes | Rapid Prototyping, Research | Beginners
 
 
 ***********

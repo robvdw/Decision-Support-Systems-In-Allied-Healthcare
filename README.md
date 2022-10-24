@@ -80,8 +80,9 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
 
 
+# OPEN SOURCE NLP libraries 
 
-
+![Pacific-AI-Table-1-cx-Sep-2019-2-1](https://user-images.githubusercontent.com/684692/197572224-52ff4b61-f5fd-4a7b-b5f0-6495bab3a70c.png)
 
 
 # CHARTS + CODING

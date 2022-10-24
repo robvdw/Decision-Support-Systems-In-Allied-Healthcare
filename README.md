@@ -85,8 +85,8 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 
 # NLP OPEN-SOURCE platforms
 
-[NLTK](https://en.wikipedia.org/wiki/Natural\_Language\_Toolkit) |NLP tasks                                                                                                    |Distinctive features                                          |Neural networks|Best for                                  |Not suitable for                          
---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|---------------|------------------------------------------|------------------------------------------
+[NLTK](https://en.wikipedia.org/wiki/Natural\_Language\_Toolkit) | NLP tasks | Distinctive features  | Neural networks | Best for | Not suitable for                          
+-----------------------------------------------------------------|-----------|-----------------------|-----------------|----------|-----------------
 NLTK                                                                |Classification, tokenization, stemming. tagging. parsing. semantic reasoning                                 |Over 50 corpora Package for chatbots Multilingual support     |No             |Training. education, research             |Complex projects with large datasets      
 Gensim                                                              |Text similarity. text summarization, topic modeling                                                          |Scalability and high performance Unsupervised training        |No             |Converting words and documentsinto vectors|Supervised text modeling Full NLP pipeline
 spaCy                                                               |Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis             |50+ languages available for tokenization Easy to learn and use|Yes            |Business production                       |Teaching and research                     

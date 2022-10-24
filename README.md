@@ -65,7 +65,8 @@ NLTK    | Classification, tokenization, stemming. tagging. parsing. semantic rea
 Gensim | Text similarity. text summarization, topic modeling | Scalability and high performance Unsupervised training | No | Converting words and documents into vectors| Supervised text modeling Full NLP pipeline
 SpaCy  | Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis | 50+ languages available for tokenization Easy to learn and use | Yes | Business production |Teaching and research                     
 Stanford Core NLP | Tokenization, multi- wordtoken expansion. lemmatization, POS tagging, dependency parsing | Different usage models Multilingual | Yes | Fully functional NLP systems | Beginners                                 
-Text Blob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping |Largescale productions § altexsoft        
+Text Blob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping |Largescale productions § altexsoft       
+MonkeyLearn | Tokenization, Text Vectorization, Semantic Analysis,   | NLP made simple, User-friendly | Yes | pre-trained models, customized Machine Learning | Teaching (Expensive)
 
 
 

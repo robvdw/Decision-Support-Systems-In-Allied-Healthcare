@@ -63,9 +63,9 @@ ToolKit | NLP tasks | Distinctive features  | Neural networks | Best for | Not s
 --------|-----------|-----------------------|-----------------|----------|-----------------
 NLTK    | Classification, tokenization, stemming. tagging. parsing. semantic reasoning | Over 50 corpora Package for chatbots Multilingual support| No | Training. education, research |Complex projects with large datasets      
 Gensim | Text similarity. text summarization, topic modeling | Scalability and high performance Unsupervised training | No | Converting words and documents into vectors| Supervised text modeling Full NLP pipeline
-spaCy  | Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis | 50+ languages available for tokenization Easy to learn and use | Yes | Business production |Teaching and research                     
+SpaCy  | Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis | 50+ languages available for tokenization Easy to learn and use | Yes | Business production |Teaching and research                     
 CoreNLP | Tokenization, multi- wordtoken expansion. lemmatization, POS tagging, dependency parsing | Different usage models Multilingual | Yes | Fully functional NLP systems | Beginners                                 
-TextBlob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping |Largescale productions § altexsoft        
+Text Blob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping |Largescale productions § altexsoft        
 
 
 

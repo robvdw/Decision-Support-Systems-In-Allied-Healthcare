@@ -80,9 +80,28 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
 
 
-# OPEN SOURCE NLP libraries 
+***********
+***********
 
-![Pacific-AI-Table-1-cx-Sep-2019-2-1](https://user-images.githubusercontent.com/684692/197572224-52ff4b61-f5fd-4a7b-b5f0-6495bab3a70c.png)
+# NLP OPEN-SOURCE platforms
+
+![image](https://user-images.githubusercontent.com/684692/197577650-b85ada4f-c00e-4cfd-8301-dae765d07af1.png)
+
+Toolkit | NLP tasks | Distinctive features | Neural networks|  Best for | Not suitable for
+| ------------- | ------------- | ------------- | ----------- | ------------- | ------------- |
+[NLTK](https://en.wikipedia.org/wiki/Natural_Language_Toolkit) | Classification, tokenization, stemming, tagging. parsing, semantic reasoning| Over 50 corpora ackage for chat bots | NO  | Training, | Complex projects
+
+
+| \[NLTK\](https://en.wikipedia.org/wiki/Natural\_Language\_Toolkit) | | NLP tasks                                                                                                     | Distinctive features                                           | Neural networks | Best for                                   | Not suitable for                           |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------- | ------------------------------------------ | ------------------------------------------ |
+| NLTK                                                                 | Classification, tokenization, stemming. tagging. parsing. semantic reasoning                                  | Over 50 corpora Package for chatbots Multilingual support      | No              | Training. education, research              | Complex projects with large datasets       |
+| Gensim                                                               | Text similarity. text summarization, topic modeling                                                           | Scalability and high performance Unsupervised training         | No              | Converting words and documentsinto vectors | Supervised text modeling Full NLP pipeline |
+| spaCy                                                                | Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis              | 50+ languages available for tokenization Easy to learn and use | Yes             | Business production                        | Teaching and research                      |
+| CoreNLP                                                              | Tokenization, multi- wordtoken expansion. lemmatization, POS tagging, dependency parsing                      | Different usage models Multilingual                            | Yes             | Fully functional NLP systems               | Beginners                                  |
+| TextBlob                                                             | POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction                            | No              | NLP prototyping                            | Largescale productions § altexsoft         |
+
+
+
 
 
 # CHARTS + CODING

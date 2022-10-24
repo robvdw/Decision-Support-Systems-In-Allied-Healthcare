@@ -66,7 +66,7 @@ Gensim | Text similarity. text summarization, SOTA topic modeling | Scalability 
 SpaCy  | Tokenization, CNN tagging, parsing, named entity recognition. classification, sentiment analysis | 50+ languages available for tokenization Easy to learn and use | Yes | Business production |Teaching and research                     
 Stanford Core NLP | Tokenization, multi- wordtoken expansion. lemmatization, POS tagging, dependency parsing | Different usage models Multilingual | Yes | Fully functional NLP systems | Beginners                                 
 Text Blob| POS tagging.noun phrase extraction sentiment analysis, classification, translation, spelling correction, etc. | Translation and spelling correction | No | NLP prototyping | Largescale productions § altexsoft       
-PyTorch-NLP | word2vector encoding | neural network, pre-trained embeddings | Yes | Rapid Prototyping, Research | Beginners
+PyTorch-NLP | Word2Vector Encoding, Dataset Sampling | Neural Network pre-trained Embeddings | Yes | Rapid Prototyping, Research | Beginners
 
 
 ***********

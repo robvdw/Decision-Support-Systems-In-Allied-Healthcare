@@ -8,14 +8,26 @@ Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction 
 
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland [---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten---](https://en.wikipedia.org/wiki/Allied_Healthcare).
 
-<img width="1004" alt="NER_EXAMPLE" src="https://user-images.githubusercontent.com/684692/196113263-a1db9c60-6936-4120-8b89-3346bb0e7e1d.png">
+
 
 [Click here to try out Named Entity Recognition [NER] visualizing demo](https://demos.explosion.ai/displacy-ent)
 
 ***********
 ***********
 
-# NGRAM Code example [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
+# NGRAM Code example 
+
+```
+from nltk import ngrams
+sentence = input("Enter the sentence: ")
+n = int(input("Enter the value of n: "))
+n_grams = ngrams(sentence.split(), n)
+for grams in n_grams:
+    print(grams)
+```
+
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
 ***********
 ***********

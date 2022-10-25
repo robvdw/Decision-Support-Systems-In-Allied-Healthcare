@@ -59,6 +59,14 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 
 # NLP OPEN-SOURCE Python Tools
 
+[Natural Language Processing (NLP)] is a discipline within artificial intelligence that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+
+To utilize NLP capabilities, there high quality open-source NLP tools, that allow developers to discover valuable insights from unstructured texts.
+That is, dealing with text analysis problems like classification, word ambiguity, sentiment analysis etc.
+
+The overview below on natural-language processing (NLP) tools are influential Python-based collections of NLP software. 
+They are suites of libraries, frameworks, and applications for symbolic, statistical natural-language and speech processing.
+
 Tool | NLP tasks | Distinctive features  | Neural networks | Best for | Not suitable for                          
 --------|-----------|-----------------------|-----------------|----------|-----------------
 NLTK    | Classification, tokenization, stemming. tagging. parsing. semantic reasoning | Over 50 corpora Package for chatbots Multilingual support| No | Training, Education, Research | Complex projects with large datasets      

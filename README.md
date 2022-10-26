@@ -17,15 +17,23 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 The computers’ availability in the 1960s gave rise to NLP applications on computers known as [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics). It uses syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic ---[semiotics](https://en.wikipedia.org/wiki/Semiotics)--- analysis of text and speech to determine the meaning of a sentence. Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning. By allowing computers to automatically analyze massive sets of data, NLP can find meaningful information in just milliseconds. NLP covers two major ---intersecting--- problem-domains [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/).
 
 
-The structure of language is hierarchical comprising of six levels – Phonology, Morphology, Lexical, Syntax, Semantics and Pragmatics. Phonology refers to the elementary sounds. Morphology refers to elementary combinations of letters and sounds. Lexical level refers to individual words formed of Morphemes. Syntax refers to combination of words. Semantics refers to the rules used to convey meaning using the lower levels. Pragmatics refers to behavioral constraints on the use of language. Discourse can be considered to be the next level, as most linguistic interchanges comprise of more than one sentence.
+The structure of language is hierarchical comprising of six levels:
 
+[1] Phonology, [2] Morphology, [3] Lexical, [4] Syntax, [5] Semantics and [6] Pragmatics
+
+Phonology refers to the elementary sounds. Morphology refers to elementary combinations of letters and sounds. Lexical level refers to individual words formed of Morphemes. Syntax refers to combination of words. Semantics refers to the rules used to convey meaning using the lower levels. Pragmatics refers to behavioral constraints on the use of language. Discourse can be considered to be the next level, as most linguistic interchanges comprise of more than one sentence.
+
+<div align="center">
+    
 Language Structure |               |  NLP Application
 ------- | ------ | -------------
-context  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / Topic modeling  / Sentiment Analysis
-Syntax [phrases & sentences] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Parsing / Entity Extraction / Relation Extraction
+Phonemes [speech & sounds] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Speech tot Text / Speaker identification / Text to Speech
 Morphenes & Lexemes [words] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Tokenization / Word Embeddings / PoS Tagging
-Phonemes [speech & sounds] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Speech tot Text / Speaker identification / Test to Speech
-
+Syntax [phrases & sentences] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Parsing / Entity Extraction / Relation Extraction
+context  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / Topic modeling  / Sentiment Analysis
+    
+</div>    
+    
 
 Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd a "Hard AI-problem". The ambiguity and creativity of human language are just two of the characteristics that make NLP a demanding area to work in. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU is commonly used in [text mining](https://en.wikipedia.org/wiki/Text_mining) to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores. NLU can also establish a relevant [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)): a data structure which specifies the relationships between words and phrases. While humans naturally do this in [conversation](https://en.wikipedia.org/wiki/Discourse_analysis), the combination of these analyses is required for a machine to understand the intended meaning of different texts.
 

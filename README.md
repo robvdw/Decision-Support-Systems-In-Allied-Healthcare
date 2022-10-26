@@ -21,9 +21,9 @@ NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/20
 
 
 
-Natural Language Understanding (NLU): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
+Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
 
-Natural Language Generation (NLG): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
+Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_language_generation): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
 NLU is about analysis. NLG is about synthesis. An NLP application may involve one or both. Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since input is not textual. Text summarization and chatbot are applications that involve NLU and NLG.
 
 ## NGRAM Code example 

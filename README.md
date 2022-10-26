@@ -13,12 +13,12 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # What is NLP?
 
-[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
 
 
-NLP is broadly made of two parts [NLU + NLG](https://devopedia.org/natural-language-processing):
+NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/):
 
-<img width="618" alt="4433 1560446395" src="https://user-images.githubusercontent.com/684692/198031392-99c76d50-e3cf-413a-aac4-fd5bced0f267.png">
+
 
 
 Natural Language Understanding (NLU): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.

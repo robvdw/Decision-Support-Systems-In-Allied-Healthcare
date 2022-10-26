@@ -17,10 +17,21 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 The computers’ availability in the 1960s gave rise to NLP applications on computers known as [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics). It uses syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic ---[semiotics](https://en.wikipedia.org/wiki/Semiotics)--- analysis of text and speech to determine the meaning of a sentence. Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning. By allowing computers to automatically analyze massive sets of data, NLP can find meaningful information in just milliseconds. NLP covers two major ---intersecting--- problem-domains [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/).
 
 
-The structure of language is hierarchical comprising of six levels:
-
-[1] Phonology, [2] Morphology, [3] Lexical, [4] Syntax, [5] Semantics and [6] Pragmatics
-
+The structure of language is hierarchical comprising of seven levels each of which has specific NLP applications
+<div align="center">
+    
+level | Structure | refers to 
+----- | ----------| --------------------------------------------------------
+[1] | Phonology   | elementary sounds
+[2] | Morphology  | elementary combinations of letters and sounds called morphemes
+[3] | Lexical     | individual words formed of Morphemes
+[4] | Syntax      | combination of words, grammatical structure of a sentence
+[5] | Semantics   | the rules used to convey meaning using the lower levels
+[6] | Pragmatics  | behavioral constraints on the use of language
+[7] | Discourse   | multiple sentences together, rules about how they should relate to each other
+    
+</div>      
+    
 Phonology refers to the elementary sounds. Morphology refers to elementary combinations of letters and sounds. Lexical level refers to individual words formed of Morphemes. Syntax refers to combination of words. Semantics refers to the rules used to convey meaning using the lower levels. Pragmatics refers to behavioral constraints on the use of language. Discourse can be considered to be the next level, as most linguistic interchanges comprise of more than one sentence.
 
 <div align="center">

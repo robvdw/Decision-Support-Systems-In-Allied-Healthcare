@@ -16,7 +16,7 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 [Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
 
 
-NLP is broadly made of two parts:
+NLP is broadly made of two parts [NLU + NLG](https://devopedia.org/natural-language-processing):
 
 <img width="618" alt="4433 1560446395" src="https://user-images.githubusercontent.com/684692/198031392-99c76d50-e3cf-413a-aac4-fd5bced0f267.png">
 

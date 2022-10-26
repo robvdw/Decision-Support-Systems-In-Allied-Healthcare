@@ -4,6 +4,19 @@ context  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / Top
 Syntax [phrases & sentences] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Parsing / Entity Extraction / Relation Extraction
 Morphenes & Lexemes [word] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | PTokenization / Word Embeddings / PoS Tagging
 
+```mermaid
+graph TD;
+A[Move] -->|Define Date| B(Rent a van from the moving company);
+B --> C{Pack boxes};
+C -->|15 boxes| D[Livingroom];
+C -->|5 boxes| E[Kitchen/Bath];
+C -->|4 boxes| F[Bedroom];
+```
+
+
+
+
+
 
 # CHARTS + CODING
 

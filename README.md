@@ -70,12 +70,12 @@ Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending 
 
 A major difficulty to allow for NLP of dutch clinical narratives/free-texts is the lack of AI-models. A wide range of AI-models are solely available
 in English. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
-a multitude of English Transformer models and variations of Bidirectional Encoder Representations
+a multitude of English [Transformer models](https://jalammar.github.io/illustrated-transformer/) and variations of Bidirectional Encoder Representations
 which includes the [Transformer BERT](https://arxiv.org/abs/1810.04805). 
 Notably, the Huggingface-Hub comprises the [Flair framework](https://aclanthology.org/N19-4010/) 
 which offers Dutch biomedical support by means of the ["BERTje transformer model"](https://arxiv.org/abs/1912.09582). 
 
-In conclussion, automated encoding of free-text clinical narratives/free-texts using concepts from
+In conclusion, automated encoding of free-text clinical narratives/free-texts using concepts from
 NLP is widely performed. However, the majority of open-source NLP tools --- e.g. [SpaCY](https://spacy.io/)--- and terminological systems --- e.g. [SNOMED](https://confluence.ihtsdotools.org/)--- involved are written in the English
 language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 

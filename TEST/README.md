@@ -8,6 +8,8 @@ https://github.com/mermaidjs/mermaid-live-editor
 
 https://support.typora.io/Draw-Diagrams-With-Markdown/
 
+https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNpVj80OgkAMhF-l6UkTeQEOJgLKxUQTvbEcGqjsRvcnyxJjgHd30Yv21HS-mUxHbGzLmGLnyUm4FsJAnF2VS6_6oKmvIUm2U8kBtDX8miBblRZ6aZ1Tplt_-WyBIB-PC8YQpDL3-SvlH__J8ARFdSQXrKt_levTTrCv1FnG-H9Feo6uQ3Wj9EZJQx5y8h8EN6jZa1JtrD4uF4FBsmaBaVxb8neBwsyRoyHYy8s0mAY_8AYH11LgQlH8WGMMfvQ8vwGEfFP7
+
 # 
 
 Blocks of Language |               |  Applications

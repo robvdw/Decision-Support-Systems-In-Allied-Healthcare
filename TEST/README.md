@@ -139,6 +139,20 @@ gantt
 
 #
 
+```mermaid
+graph LR
+      LB[Load Balancer] -- route1 --> web1
+      LB[Load Balancer] --> web2
+      web1 --> app1(fa:fa-check app1)
+      web1 ==> app2
+      web2 ==> app2(fa:fa-ban app2)
+      web2 --> app1
+      app1 --> D[(database)]
+```
+
+#
+
+
 ```
 function test() {
   console.log("notice the blank line before this function?");

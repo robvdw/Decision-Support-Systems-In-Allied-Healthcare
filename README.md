@@ -4,11 +4,9 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens [---Big data---](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing (NLP) toepassingsdomein. 
 
-Speech-to-Text (STT), Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels [---ontologieën--- voor de zorg zoals SNOMED](https://nictiz.nl/publicaties/verborgen-kant-van-snomed/).
+Speech-to-Text (STT), NGRAM analysis, Named Entity Recognition (NER) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels [---ontologieën--- voor de zorg zoals SNOMED](https://nictiz.nl/publicaties/verborgen-kant-van-snomed/).
 
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA] die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland [---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten---](https://en.wikipedia.org/wiki/Allied_Healthcare).
-
-
 
 [Click here to try out Named Entity Recognition [NER] visualizing demo](https://demos.explosion.ai/displacy-ent)
 
@@ -26,12 +24,23 @@ for grams in n_grams:
     print(grams)
 ```
 
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
 ***********
 ***********
 
+# Domain-specific (clinical) Language models in Dutch
+
+A major difficulty to allow for NLP of dutch clinical texts is the lack of domain-specfic models. For English, many models are available
+in multiple different frameworks. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
+a multitude of English Transformer models and variations of Bidirectional Encoder Representations
+from [Transformer (BERT)](https://arxiv.org/abs/1810.04805) models.
+The [Flair framework](https://aclanthology.org/N19-4010/) has recently also moved their models to the Huggingface model hub. Flair offers a multitude of datasets
+with special biomedical support. In those frameworks, only one Dutch language model is present. This
+is the Dutch BERT model, BERTje (de Vries et al., 2019).
+
+***********
+***********
 
 # Project Principles 
 

@@ -4,21 +4,39 @@ De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste de
 
 Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens [---Big data---](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het [Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) toepassingsdomein. 
 
-Speech-to-Text (STT), NGRAM analysis, Named [Entity Recognition (NER)]((https://demos.explosion.ai/displacy-ent)) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels [---ontologieën---](https://nl.wikipedia.org/wiki/Ontologie_(informatica)) voor de zorg zoals [SNOMED](https://nictiz.nl/publicaties/verborgen-kant-van-snomed/).
+Speech-to-Text [(STT)](https://azure.microsoft.com/nl-nl/products/cognitive-services/speech-to-text/#overview), [NGRAM](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb) analysis, Named [Entity Recognition (NER)](https://demos.explosion.ai/displacy-ent?text=e%20ontembare%20groei%20van%20elektronische%20gezondheidsdossiers%20(EPD)%20in%20het%20laatste%20decennium%20heeft%20een%20overvloed%20aan%20klinische%20tekst%20opgeleverd%20die%20veelal%20ongestructureerd%20is%20en%20onbenut%20blijft.%20Een%20complicerende%20factor%20is%20dat%20EPDs%20in%20Nederlandse%20ziekenhuizen%20door%20slechts%20een%20drietal%20softwareleveranciers%20wordt%20beheerd%20.%20Deze%20monopolie%20positie%20heeft%20er%20toe%20geleid%20dat%20de%20interoperabiliteit%20van%20het%20EPD%20---koppelen%20van%20meerdere%20informatiesystemen---%20nogal%20te%20wensen%20over%20laat%20volgens%20de%20100%20%0ANederlandse%20academische%20ziekenhuizen.%0A&model=nl_core_news_sm&ents=person%2Corg%2Cgpe%2Cloc%2Cproduct%2Cnorp%2Cdate%2Cper%2Cmisc%2Clanguage%2Cevent%2Ctime%2Cmoney%2Ccardinal%2Cordinal%2Cquantity%2Cpercent%2Cwork_of_art) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels [---ontologieën---](https://nl.wikipedia.org/wiki/Ontologie_(informatica)) voor de zorg zoals [SNOMED](https://nictiz.nl/publicaties/verborgen-kant-van-snomed/).
 
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA](https://ivdnt.org/corpora-lexica/#:~:text=Een%20corpus%20is%20een%20grote,en%20voor%20allerlei%20wetenschappelijk%20onderzoek.) die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland [---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten---](https://en.wikipedia.org/wiki/Allied_Healthcare).
 
 ***********
 ***********
 
-# NLP OPEN-SOURCE Python Tools
+# What is NLP?
 
 [Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+
+
+NLP is broadly made of two parts:
+
+<img width="618" alt="4433 1560446395" src="https://user-images.githubusercontent.com/684692/198031392-99c76d50-e3cf-413a-aac4-fd5bced0f267.png">
+
+
+Natural Language Understanding (NLU): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
+
+Natural Language Generation (NLG): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
+NLU is about analysis. NLG is about synthesis. An NLP application may involve one or both. Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since input is not textual. Text summarization and chatbot are applications that involve NLU and NLG.
+
+
+***********
+***********
+
+# NLP OPEN-SOURCE Python Tools
 
 To harnass NLP capabilities, there are high quality open-source NLP tools available allowing developers to discover valuable insights from unstructured texts.
 That is, dealing with text analysis problems like classification, word ambiguity, sentiment analysis etc.
 
-Below an inventory is given on state-of-the-art  ---[Python programming language based](https://www.python.org/)--- open-source natural-language processing (NLP) tools & software. These are suites of libraries, frameworks, and applications for symbolic, statistical natural-language and speech processing.
+The here shown inventory is given on state-of-the-art  ---[Python programming language based](https://www.python.org/)--- open-source natural-language processing (NLP) tools & software. These are suites of libraries, frameworks, and applications for symbolic, statistical natural-language and speech processing.
+
 
 Tool | NLP tasks | Distinctive features  | Neural networks | Best for | Not suitable for                          
 --------|-----------|-----------------------|-----------------|----------|-----------------

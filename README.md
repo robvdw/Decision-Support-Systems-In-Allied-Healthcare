@@ -31,12 +31,16 @@ for grams in n_grams:
 
 # Domain-specific (clinical) Language models in Dutch
 
-A major difficulty to allow for NLP of dutch clinical free-texts is the lack of domain-specfic models. A wide range models are available
+A major difficulty to allow for NLP of dutch clinical narratives/free-texts is the lack of AI-models. A wide range of AI-models are solely available
 in English. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
 a multitude of English Transformer models and variations of Bidirectional Encoder Representations
 which includes the [Transformer BERT](https://arxiv.org/abs/1810.04805). 
 Notably, the Huggingface-Hub comprises the [Flair framework](https://aclanthology.org/N19-4010/) 
-which offers Dutch biomedical support: [BERTje](https://arxiv.org/abs/1912.09582).
+which offers Dutch biomedical support: [BERTje](https://arxiv.org/abs/1912.09582). 
+
+In conclussion, automated encoding of free-text clinical narratives/free-texts using concepts from
+NLP is widely performed. However, the majority of NLP tools and terminological systems involved are written in the English
+language. See for example: [Cornet, R., Van Eldik, A., & De Keizer, N. (2012). Inventory of tools for Dutch clinical language processing. In MIE (pp. 245-249)](https://ebooks.iospress.nl/publication/21741).
 
 ***********
 ***********
@@ -80,10 +84,7 @@ The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-d
 
 # Translational Practice-based Research
 This DSS research project focuses on improving allied heathcare. It is a highly transdisciplinary collaboration between 
-[IGV](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/), the [CMI Minor Data Enginering](https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/) and the [Prometheus Data-Lab](https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/).
-
-The project is supported by the [Program for AI & Ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex), [DCC SURF-pilot project] (https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research) and [Data Supported Healthcare: Zorgtech010 data-science unit]
-(https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/).
+[IGV](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/), the [CMI Minor Data Enginering](https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/) and the [Prometheus Data-Lab](https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/). Supported is geven by the [Program for AI & Ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex), [DCC SURF-pilot project](https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research) and [Data Supported Healthcare: Zorgtech010 data-science unit](https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/).
 
 ***********
 ***********
@@ -92,10 +93,12 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 
 [Natural Language Processing (NLP)] is a discipline within artificial intelligence domain that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
 
-To utilize NLP capabilities, there high quality open-source NLP tools, that allow developers to discover valuable insights from unstructured texts.
+To harnass NLP capabilities, there are high quality open-source NLP tools available allowing developers to discover valuable insights from unstructured texts.
 That is, dealing with text analysis problems like classification, word ambiguity, sentiment analysis etc.
 
-The overview below on natural-language processing (NLP) tools are influential Python-based collections of NLP software. 
+Below an inventory is given on open-source natural-language processing (NLP) tools that are most widely used 
+
+influential ---Python-based collections---- of NLP software. 
 They are suites of libraries, frameworks, and applications for symbolic, statistical natural-language and speech processing.
 
 Tool | NLP tasks | Distinctive features  | Neural networks | Best for | Not suitable for                          

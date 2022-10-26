@@ -31,18 +31,31 @@ for grams in n_grams:
 
 # Domain-specific (clinical) Language models in Dutch
 
-A major difficulty to allow for NLP of dutch clinical texts is the lack of domain-specfic models. For English, many models are available
-in multiple different frameworks. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
+A major difficulty to allow for NLP of dutch clinical free-texts is the lack of domain-specfic models. A wide range models are available
+in English for multiple different frameworks. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
 a multitude of English Transformer models and variations of Bidirectional Encoder Representations
 from [Transformer (BERT)](https://arxiv.org/abs/1810.04805) models.
 The [Flair framework](https://aclanthology.org/N19-4010/) has recently also moved their models to the Huggingface model hub. Flair offers a multitude of datasets
 with special biomedical support. In those frameworks, only one Dutch language model is present. This
-is the Dutch BERT model, BERTje (de Vries et al., 2019).
+is the [Dutch BERT model: BERTje](https://arxiv.org/abs/1912.09582).
+For English clinical texts there are a lot of annotated data
+available, training any kind of supervised NLP model is not as resource-consuming. 
+When comparing this to the Dutch language-domain, the available resources are a lot scarcer.
 
 ***********
 ***********
 
 # Project Principles 
+
+Discover Research Phase | Define Synthesis Phase | Develop Ideation Phase | Deliver Implementation Phase                                                                                                                        
+------------------------|------------------------|------------------------|------------------------------
+\[0\] Collection                                                                                                                      |\[2\] Preparation + Wrangling (Munging)                                     |\[3\] Exploration                                                                                                                                                                                                  |\[6\] Organization + Managing                                                                                                                       
+\[1\] Access + Retrieval                                                                                                              |                                                                            |\[4\] Analysis + Machine-Learning \[5\] Abstraction                                                                                                                                                                |\[7\] Automation + Reporting                                                                                                                        
+Big Data (Acuisition/Aggregation) Gathering Empirical (Sensor/IoT Measuring/Sampling) Ownership (Open/Closed) Storage (Cloud/Database)|Loading Feature Extraction/Reduction Normalization Transformation Conversion|Graphical (spatial) Ontological (Language) Semantic (text) Rule-based/Algorithmic Quantitative/Qualitative Numerical/Categorical/Symbolic                                                                          |Visualization Virtualization Performance (Measure/Monitor) Evaluation & Review Decision & Advise or Prescription (Interactive/Passive) Story Telling
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/684692/190854318-53c7040b-9d54-4cc7-a19a-a281349d6145.png)
 

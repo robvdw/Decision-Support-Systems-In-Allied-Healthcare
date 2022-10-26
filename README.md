@@ -125,6 +125,8 @@ Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending 
 
 10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
 
+11. [Inventory of Tools for Dutch Clinical Language Processing, 2012](https://doi.org/10.3233/978-1-61499-101-4-245)
+
 
 # CHARTS + CODING
 

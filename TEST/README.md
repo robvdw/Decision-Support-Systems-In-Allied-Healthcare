@@ -200,6 +200,25 @@ gitGraph
 
 #
 
+:root {
+  --mermaid-theme: default; /*or base, dark, forest, neutral, night */
+  --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+  --mermaid-sequence-numbers: off; /* or "on", see https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequencenumbers*/
+  --mermaid-flowchart-curve: linear /* or "basis", see https://github.com/typora/typora-issues/issues/1632*/;
+  --mermaid--gantt-left-padding: 75; /* see https://github.com/typora/typora-issues/issues/1665*/
+}
+
+
+:root {--mermaid-theme:dark;}	Screen Shot 2020-12-05 at 17.08.46
+:root {--mermaid-theme:neutral;}	Screen Shot 2020-12-05 at 17.09.42
+:root {--mermaid-theme:forest;}
+
+
+
+
+
+#
+
 ```
 function test() {
   console.log("notice the blank line before this function?");

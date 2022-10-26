@@ -6,6 +6,8 @@ https://mermaid-js.github.io/mermaid/#/theming
 
 https://github.com/mermaidjs/mermaid-live-editor
 
+https://support.typora.io/Draw-Diagrams-With-Markdown/
+
 # 
 
 Blocks of Language |               |  Applications
@@ -158,6 +160,19 @@ graph LR
 
 #
 
+```mermaid
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
+
+#
 
 ```
 function test() {

@@ -90,7 +90,7 @@ The project is supported by the [Program for AI & Ethics](https://www.hogeschool
 
 # NLP OPEN-SOURCE Python Tools
 
-[Natural Language Processing (NLP)] is a discipline within artificial intelligence that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+[Natural Language Processing (NLP)] is a discipline within artificial intelligence domain that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
 
 To utilize NLP capabilities, there high quality open-source NLP tools, that allow developers to discover valuable insights from unstructured texts.
 That is, dealing with text analysis problems like classification, word ambiguity, sentiment analysis etc.
@@ -110,8 +110,6 @@ PyTorch-NLP | Word2Vector Encoding, Dataset Sampling | Neural Network pre-traine
 AllenNLP | high-level configuration language to implement many common approaches in NLP, such as transformer experiments, multi-task training, vision+language tasks, fairness, and interpretability | Solving natural language processing tasks in PyTorch |  Yes | Experimentation | Developement has stopped
 FlairNLP | Get insight from text extraction, word embedding, named entity recognition, parts of speech tagging, and text classification | Sense Disambiguation + Classification, Sentiment Analysis | No  | Supports Biomedical Datasets | Business production
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
-
-
 
 ***********
 ***********

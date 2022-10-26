@@ -32,15 +32,11 @@ for grams in n_grams:
 # Domain-specific (clinical) Language models in Dutch
 
 A major difficulty to allow for NLP of dutch clinical free-texts is the lack of domain-specfic models. A wide range models are available
-in English for multiple different frameworks. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
+in English. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
 a multitude of English Transformer models and variations of Bidirectional Encoder Representations
-from [Transformer (BERT)](https://arxiv.org/abs/1810.04805) models.
-The [Flair framework](https://aclanthology.org/N19-4010/) has recently also moved their models to the Huggingface model hub. Flair offers a multitude of datasets
-with special biomedical support. In those frameworks, only one Dutch language model is present. This
-is the [Dutch BERT model: BERTje](https://arxiv.org/abs/1912.09582).
-For English clinical texts there are a lot of annotated data
-available, training any kind of supervised NLP model is not as resource-consuming. 
-When comparing this to the Dutch language-domain, the available resources are a lot scarcer.
+which includes the [Transformer BERT](https://arxiv.org/abs/1810.04805). 
+Notably, the Huggingface-Hub comprises the [Flair framework](https://aclanthology.org/N19-4010/) 
+which offers Dutch biomedical support: [BERTje](https://arxiv.org/abs/1912.09582).
 
 ***********
 ***********

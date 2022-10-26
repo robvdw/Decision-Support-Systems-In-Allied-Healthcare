@@ -1,12 +1,16 @@
 https://python.astrotech.io/design-patterns/uml/mermaid.html
 
-
+https://mermaid-js.github.io/mermaid/#/theming
 
 Blocks of Language |               |  Applications
 ------- | ------ | -------------
 context  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / Topic modeling  / Sentiment Analysis
 Syntax [phrases & sentences] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Parsing / Entity Extraction / Relation Extraction
 Morphenes & Lexemes [word] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | PTokenization / Word Embeddings / PoS Tagging
+
+
+
+#
 
 ```mermaid
 graph TD;
@@ -16,6 +20,7 @@ C -->|15 boxes| D[Livingroom];
 C -->|5 boxes| E[Kitchen/Bath];
 C -->|4 boxes| F[Bedroom];
 ```
+#
 
 ```mermaid
 classDiagram
@@ -37,6 +42,8 @@ classDiagram
       + agency: str = 'Roscosmos'
     }
 ```
+
+#
 
 ```mermaid
 sequenceDiagram
@@ -75,7 +82,7 @@ graph TD;
     PRODUCT-CATEGORY ||--|{ PRODUCT : contains
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
-
+# 
 
 ```mermaid
 graph TD;
@@ -85,6 +92,7 @@ graph TD;
     D --> B
     B ---->|No| E[End]
 ```
+# 
 
 ```mermaid
 stateDiagram-v2
@@ -112,6 +120,8 @@ stateDiagram-v2
         SomethingElse2 --> [*]
 ```
 
+# 
+
 ```mermaid
 gantt
 
@@ -126,6 +136,8 @@ gantt
     Implementation      :crit, active, 2000-02-01, 20d
     Testing             :crit, 20d
 ```
+
+#
 
 ```
 function test() {

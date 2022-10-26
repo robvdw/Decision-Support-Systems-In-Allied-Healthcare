@@ -26,6 +26,18 @@ Natural Language Understanding (NLU): This involves converting speech or text in
 Natural Language Generation (NLG): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
 NLU is about analysis. NLG is about synthesis. An NLP application may involve one or both. Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since input is not textual. Text summarization and chatbot are applications that involve NLU and NLG.
 
+## NGRAM Code example 
+
+```
+from nltk import ngrams
+sentence = input("Enter the sentence: ")
+n = int(input("Enter the value of n: "))
+n_grams = ngrams(sentence.split(), n)
+for grams in n_grams:
+    print(grams)
+```
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
 ***********
 ***********
@@ -51,23 +63,6 @@ AllenNLP | high-level configuration language to implement many common approaches
 FlairNLP | Get insight from text extraction, word embedding, named entity recognition, parts of speech tagging, and text classification | Sense Disambiguation + Classification, Sentiment Analysis | No  | Supports Biomedical Datasets | Business production
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
 
-
-***********
-***********
-
-
-# NGRAM Code example 
-
-```
-from nltk import ngrams
-sentence = input("Enter the sentence: ")
-n = int(input("Enter the value of n: "))
-n_grams = ngrams(sentence.split(), n)
-for grams in n_grams:
-    print(grams)
-```
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
 ***********
 ***********

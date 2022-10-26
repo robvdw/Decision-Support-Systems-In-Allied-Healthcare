@@ -182,7 +182,21 @@ pie
     "C" : 150 
 ```
 
+#
 
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
+```
 
 #
 

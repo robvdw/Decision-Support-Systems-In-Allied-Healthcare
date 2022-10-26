@@ -65,7 +65,7 @@ which offers Dutch biomedical support by means of the ["BERTje transformer model
 
 In conclussion, automated encoding of free-text clinical narratives/free-texts using concepts from
 NLP is widely performed. However, the majority of open-source NLP tools --- e.g. [SpaCY](https://spacy.io/)--- and terminological systems --- e.g. [SNOMED](https://confluence.ihtsdotools.org/)--- involved are written in the English
-language. See for example: [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245). Inventory of tools for Dutch clinical language processing. In Studies in Health Technology and Informatics (pp. 245-249).
+language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 
 ***********
 ***********

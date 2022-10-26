@@ -13,7 +13,10 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # What is NLP?
 
-[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. NLP uses syntactic and semantic analysis of text and speech to determine the meaning of a sentence.  
+Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning.
+
+By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
 
 
 NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/):
@@ -21,7 +24,7 @@ NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/20
 
 
 
-Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
+Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd an "Hard AI-problem" that . This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
 
 Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_language_generation): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
 NLU is about analysis. NLG is about synthesis. An NLP application may involve one or both. Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since input is not textual. Text summarization and chatbot are applications that involve NLU and NLG.

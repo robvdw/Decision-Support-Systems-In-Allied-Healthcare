@@ -13,19 +13,31 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # What is NLP?
 
-[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages linguistics and computer science to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
 
 
-NLP is broadly made of two parts [NLU + NLG](https://devopedia.org/natural-language-processing):
-
-<img width="618" alt="4433 1560446395" src="https://user-images.githubusercontent.com/684692/198031392-99c76d50-e3cf-413a-aac4-fd5bced0f267.png">
+NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/):
 
 
-Natural Language Understanding (NLU): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
 
-Natural Language Generation (NLG): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
+
+Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
+
+Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_language_generation): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
 NLU is about analysis. NLG is about synthesis. An NLP application may involve one or both. Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since input is not textual. Text summarization and chatbot are applications that involve NLU and NLG.
 
+## NGRAM Code example 
+
+```
+from nltk import ngrams
+sentence = input("Enter the sentence: ")
+n = int(input("Enter the value of n: "))
+n_grams = ngrams(sentence.split(), n)
+for grams in n_grams:
+    print(grams)
+```
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
 ***********
 ***********
@@ -51,23 +63,6 @@ AllenNLP | high-level configuration language to implement many common approaches
 FlairNLP | Get insight from text extraction, word embedding, named entity recognition, parts of speech tagging, and text classification | Sense Disambiguation + Classification, Sentiment Analysis | No  | Supports Biomedical Datasets | Business production
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
 
-
-***********
-***********
-
-
-# NGRAM Code example 
-
-```
-from nltk import ngrams
-sentence = input("Enter the sentence: ")
-n = int(input("Enter the value of n: "))
-n_grams = ngrams(sentence.split(), n)
-for grams in n_grams:
-    print(grams)
-```
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
 ***********
 ***********

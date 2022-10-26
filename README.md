@@ -13,18 +13,16 @@ Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken ov
 
 # What is NLP?
 
-[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a AI-discipline that leverages [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. NLP uses syntactic and semantic analysis of text and speech to determine the meaning of a sentence.  
-Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning.
+[Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a hybrid AI-discipline that is developed from [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. 
+The computers’ availability in the 1960s gave rise to NLP applications on computers known as [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics). It uses syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic ---[semiotics](https://en.wikipedia.org/wiki/Semiotics)--- analysis of text and speech to determine the meaning of a sentence. Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning. By allowing computers to automatically analyze massive sets of data, NLP can find meaningful information in just milliseconds.
 
-By allowing computers to automatically analyze massive sets of data, NLP can help you find meaningful information in just seconds.
+NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/).
 
+Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd an "Hard AI-problem".
+The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU can also establish a relevant ontology: a data structure which specifies the relationships between words and phrases. While humans naturally do this in conversation, the combination of these analyses is required for a machine to understand the intended meaning of different texts.
 
-NLP is broadly made of two parts [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/):
+NLU is commonly used in [text mining] to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores.
 
-
-
-
-Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd an "Hard AI-problem" that . This involves converting speech or text into useful representations on which analysis can be performed. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. Some say NLP is about text parsing and syntactic processing while NLU is about semantic relationships and meaning. NLU tackles the complexities of language beyond the basic sentence structure.
 
 Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_language_generation): Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly.
 NLU is about analysis. NLG is about synthesis. An NLP application may involve one or both. Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since input is not textual. Text summarization and chatbot are applications that involve NLU and NLG.

@@ -1,3 +1,7 @@
+https://python.astrotech.io/design-patterns/uml/mermaid.html
+
+
+
 Blocks of Language |               |  Applications
 ------- | ------ | -------------
 context  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / Topic modeling  / Sentiment Analysis
@@ -34,7 +38,20 @@ classDiagram
     }
 ```
 
+```mermaid
+sequenceDiagram
 
+    participant Client
+    participant Server
+    participant Database
+
+    activate Client
+    Client ->> +Server: HTTP Request
+    Server ->> +Database: SQL Query
+    Database -->> -Server: Result
+    Server -->> -Client: HTTP Response
+    deactivate Client
+```    
 
 # CHARTS + CODING
 

@@ -1,16 +1,34 @@
+***********
+
 # Decision Support Systems [DSS] in Allied Healthcare
 De ontembare groei van elektronische gezondheidsdossiers (EPD) in het laatste decennium heeft een overvloed aan klinische tekst opgeleverd die veelal ongestructureerd is en onbenut blijft.  Een complicerende factor is dat EPDs in Nederlandse ziekenhuizen door slechts een [drietal softwareleveranciers](https://www.zorgvisie.nl/epd-overzicht/) wordt beheerd
 . Deze monopolie positie heeft er toe geleid dat de interoperabiliteit van het EPD ---koppelen van  meerdere informatiesystemen--- nogal te wensen over laat volgens de [Nederlandse academische ziekenhuizen](https://www.skipr.nl/nieuws/ziekenhuizen-openen-in-2doc-frontale-aanval-op-chipsoft/).
 
-Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens [---Big data---](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het [Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) toepassingsdomein. 
+Desalniettemin, deze enorme hoeveelheid klinische tekstgegevens [---Big data---](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) leent zich voor informatie-extractie en text mining technieken gebaseerd op Kunstmatige Intelligentie (AI) modellen binnen het Natural Language Processing [(NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) toepassingsdomein. 
 
 Speech-to-Text [(STT)](https://azure.microsoft.com/nl-nl/products/cognitive-services/speech-to-text/#overview), [NGRAM](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb) analysis, Named [Entity Recognition (NER)](https://demos.explosion.ai/displacy-ent?text=e%20ontembare%20groei%20van%20elektronische%20gezondheidsdossiers%20(EPD)%20in%20het%20laatste%20decennium%20heeft%20een%20overvloed%20aan%20klinische%20tekst%20opgeleverd%20die%20veelal%20ongestructureerd%20is%20en%20onbenut%20blijft.%20Een%20complicerende%20factor%20is%20dat%20EPDs%20in%20Nederlandse%20ziekenhuizen%20door%20slechts%20een%20drietal%20softwareleveranciers%20wordt%20beheerd%20.%20Deze%20monopolie%20positie%20heeft%20er%20toe%20geleid%20dat%20de%20interoperabiliteit%20van%20het%20EPD%20---koppelen%20van%20meerdere%20informatiesystemen---%20nogal%20te%20wensen%20over%20laat%20volgens%20de%20100%20%0ANederlandse%20academische%20ziekenhuizen.%0A&model=nl_core_news_sm&ents=person%2Corg%2Cgpe%2Cloc%2Cproduct%2Cnorp%2Cdate%2Cper%2Cmisc%2Clanguage%2Cevent%2Ctime%2Cmoney%2Ccardinal%2Cordinal%2Cquantity%2Cpercent%2Cwork_of_art) en Relationship Extraction (RE) zijn sleutelcomponenten van NLP informatie-extractie taken met betrekking tot het benutten van terminologiestelsels [---ontologieën---](https://nl.wikipedia.org/wiki/Ontologie_(informatica)) voor de zorg zoals [SNOMED](https://nictiz.nl/publicaties/verborgen-kant-van-snomed/).
 
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA](https://ivdnt.org/corpora-lexica/#:~:text=Een%20corpus%20is%20een%20grote,en%20voor%20allerlei%20wetenschappelijk%20onderzoek.) die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland [---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten---](https://en.wikipedia.org/wiki/Allied_Healthcare).
 
+
 ***********
 
-## Reseach Aim
+## Domain-specific (clinical) Language models in Dutch
+
+A major difficulty to allow for NLP of dutch clinical narratives ---free-texts--- is the lack of AI-models. A wide range of AI-models are solely available
+in English. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
+a multitude of English [Transformer models](https://jalammar.github.io/illustrated-transformer/) and variations of Bidirectional Encoder Representations
+which includes the [Transformer BERT](https://arxiv.org/abs/1810.04805). 
+Notably, the Huggingface-Hub comprises the [Flair framework](https://aclanthology.org/N19-4010/) 
+which offers Dutch biomedical support by means of the ["BERTje transformer model"](https://arxiv.org/abs/1912.09582). 
+
+In conclusion, automated encoding of free-text clinical narratives using concepts from
+NLP is widely performed. However, the majority of open-source NLP tools --- e.g. [SpaCY](https://spacy.io/)--- and terminological systems --- e.g. [SNOMED](https://confluence.ihtsdotools.org/)--- involved are written in the English
+language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
+
+***********
+
+## Research Aim
 
 This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
@@ -48,12 +66,7 @@ level | Structure | refers to
 
 Syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic ---[semiotics](https://en.wikipedia.org/wiki/Semiotics)--- analysis of text and speech to determine the meaning of a sentence. Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning. By allowing computers to automatically analyze massive sets of data, NLP can find meaningful information in just milliseconds. 
 
-### NLP = NLU + NLG 
-
-NLP covers two major ---intersecting--- application-domains [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/).
-
-
-Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd a "Hard AI-problem". The ambiguity and creativity of human language are just two of the characteristics that make NLP a demanding area to work in. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU is commonly used in [text mining](https://en.wikipedia.org/wiki/Text_mining) to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores. NLU can also establish a relevant [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)): a data structure which specifies the relationships between words and phrases. While humans naturally do this in [conversation](https://en.wikipedia.org/wiki/Discourse_analysis), the combination of these analyses is required for a machine to understand the intended meaning of different texts.
+NLP covers two major ---intersecting--- application-domains [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/). Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd a "Hard AI-problem". The ambiguity and creativity of human language are just two of the characteristics that make NLP a demanding area to work in. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU is commonly used in [text mining](https://en.wikipedia.org/wiki/Text_mining) to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores. NLU can also establish a relevant [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)): a data structure which specifies the relationships between words and phrases. While humans naturally do this in [conversation](https://en.wikipedia.org/wiki/Discourse_analysis), the combination of these analyses is required for a machine to understand the intended meaning of different texts.
 
 <div align="center">
     
@@ -105,48 +118,6 @@ FlairNLP | Get insight from text extraction, word embedding, named entity recogn
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
 
 ***********
-
-### Domain-specific (clinical) Language models in Dutch
-
-A major difficulty to allow for NLP of dutch clinical narratives/free-texts is the lack of AI-models. A wide range of AI-models are solely available
-in English. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
-a multitude of English [Transformer models](https://jalammar.github.io/illustrated-transformer/) and variations of Bidirectional Encoder Representations
-which includes the [Transformer BERT](https://arxiv.org/abs/1810.04805). 
-Notably, the Huggingface-Hub comprises the [Flair framework](https://aclanthology.org/N19-4010/) 
-which offers Dutch biomedical support by means of the ["BERTje transformer model"](https://arxiv.org/abs/1912.09582). 
-
-In conclusion, automated encoding of free-text clinical narratives/free-texts using concepts from
-NLP is widely performed. However, the majority of open-source NLP tools --- e.g. [SpaCY](https://spacy.io/)--- and terminological systems --- e.g. [SNOMED](https://confluence.ihtsdotools.org/)--- involved are written in the English
-language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
-
-***********
-
-## Project Principles 
-
-Discover Research Phase | Define Synthesis Phase | Develop Ideation Phase | Deliver Implementation Phase                                                                                                                        
-------------------------|------------------------|------------------------|------------------------------
-\[0\] Collection        |\[2\] Preparation + Wrangling (Munging)   |\[3\] Exploration     |\[6\] Organization + Managing                                                                                                                       
-\[1\] Access + Retrieval                                                                                                              |                                                                            |\[4\] Analysis + Machine-Learning \[5\] Abstraction                                                                                                                                                                |\[7\] Automation + Reporting                                                                                                                        
-Big Data (Acuisition/Aggregation) Gathering Empirical (Sensor/IoT Measuring/Sampling) Ownership (Open/Closed) Storage (Cloud/Database)|Loading Feature Extraction/Reduction Normalization Transformation Conversion|Graphical (spatial) Ontological (Language) Semantic (text) Rule-based/Algorithmic Quantitative/Qualitative Numerical/Categorical/Symbolic                                                                          |Visualization Virtualization Performance (Measure/Monitor) Evaluation & Review Decision & Advise or Prescription (Interactive/Passive) Story Telling
-
-
-- [Do no Harm](https://www.newyorker.com/magazine/2015/05/18/anatomy-of-error)
-
-- Data science is about solving problems [human-in-the-loop], not models or algorithms.
-
-- All validation of data, hypotheses and performance should be tracked and properly peer-reviewed.
-
-- A product needs a definition-of-done to evaluate its quality.
-
-- Research must be broken down into clearly defined tasks. The smallest of iterations should be preferred in acquiring, integrating and correcting knowledge.
-
-- Don’t neglect assumptions in models. Make them explicit then aim to have them either verified or removed.
-
-(Adapted from http://datasciencemanifesto.org/)
-
-***********
-
-
 
 ## References
 

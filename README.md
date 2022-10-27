@@ -29,7 +29,7 @@ language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 
 ## Research Aim
 
-This project aims (1) to share sate-of-the-art knowledge about NLP end (2) to create a medical corpus derived from clinical naratives ---medical case-studies--- through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
+This project aims [1] to share sate-of-the-art knowledge about NLP and [2] to create a medical corpus derived from clinical naratives ---medical case-studies--- through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
 
 That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of Rotterdam University of Applied Sciences [(RUAS)](https://www.rotterdamuas.com/collaboration/).
 

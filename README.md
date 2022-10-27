@@ -29,9 +29,11 @@ language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 
 ## Research Aim
 
-This project aims [1] to share sate-of-the-art knowledge about NLP and [2] to create a medical corpus derived from clinical naratives ---medical case-studies--- through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
+This project aims [1] to share pratical knowledge about how to apply NLP techniques and [2] to create a medical corpus derived from clinical naratives ---allied-healthcare medical case-studies--- through the use of data enigineering [DE](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) + data science [DS](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
 
-That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of Rotterdam University of Applied Sciences [(RUAS)](https://www.rotterdamuas.com/collaboration/).
+The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
+
+That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor [IVG](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/) and other educational or research institutes of Rotterdam University of Applied Sciences [(RUAS)](https://www.rotterdamuas.com/collaboration/).
 
 
 
@@ -41,7 +43,7 @@ That is, utimately making clinical data freely exchangeable between the various 
 
 This practice-based research project focuses on improving allied heathcare by applying state-of-the-art AI technologies. It is a highly transdisciplinary collaboration between [IGV](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/), the [CMI Minor Data Enginering](https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/) and the [Prometheus Data-Lab](https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/) of the Rotterdam University of applied Sciences [---RUAS---](https://www.rotterdamuas.com/collaboration/). Supported is geven by the RUAS [Program for AI & Ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex),  the Digital Compentence Centre (DCC) for Practice-based Research  [---DCC SURF-pilot project---](https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research) and the RUAS Data Supported Healthcare team [---Zorgtech010 data-science unit---](https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/).
 
-The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data) which is a EU GDPR complient service provided by SURF.nl. A RUAS data steward is responsible for managing and creating folder structures, user access, and determining quotas within his/her allocated environment.
+The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data) which is a EU GDPR complient service provided by SURF A data steward is responsible for managing and creating folder structures, user access, and determining quotas. Research Drive enables the use of Jupyter Notebooks.
 
 ***********
 

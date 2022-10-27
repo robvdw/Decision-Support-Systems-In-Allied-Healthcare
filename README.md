@@ -9,9 +9,25 @@ Speech-to-Text [(STT)](https://azure.microsoft.com/nl-nl/products/cognitive-serv
 Voordat deze data-gedreven innovatie mogelijk wordt moet je kunnen beschikken over verzamelingen aan tekst of gesproken taal [CORPORA](https://ivdnt.org/corpora-lexica/#:~:text=Een%20corpus%20is%20een%20grote,en%20voor%20allerlei%20wetenschappelijk%20onderzoek.) die woorden bevatten met betrekking tot het gebruik van taal binnen een specifiek toepassingsdomein (vakgebied) zoals de geassocieerde gezondheidszorg in Nederland [---Klinisch Psychologen, Ergotherapeuten en Fysiotherapeuten---](https://en.wikipedia.org/wiki/Allied_Healthcare).
 
 ***********
+
+## Reseach Aim
+
+This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
+
+That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of [Rotterdam University of Applied Sciences](https://www.rotterdamuas.com/collaboration/).
+
+The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data) which is a EU GDPR complient service from SURF.nl. 
+
 ***********
 
-# What is NLP?
+## Collaboration
+
+This DSS research project focuses on improving allied heathcare. It is a highly transdisciplinary collaboration between 
+[IGV](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/), the [CMI Minor Data Enginering](https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/) and the [Prometheus Data-Lab](https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/). Supported is geven by the [Program for AI & Ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex), [DCC SURF-pilot project](https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research) and [Data Supported Healthcare: Zorgtech010 data-science unit](https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/).
+
+***********
+
+## Natural Lanuage Processing [NLP] Defined
 
 [Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a hybrid AI-discipline that is developed from [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. 
 The computers’ availability in the 1960s gave rise to NLP applications on computers known as [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics). The structure of language is hierarchical comprising of seven levels each that contrain the use of computational linguistics. 
@@ -32,10 +48,7 @@ level | Structure | refers to
 
 Syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic ---[semiotics](https://en.wikipedia.org/wiki/Semiotics)--- analysis of text and speech to determine the meaning of a sentence. Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning. By allowing computers to automatically analyze massive sets of data, NLP can find meaningful information in just milliseconds. 
 
-***********
-***********
-
-# NLP = NLU + NLG 
+### NLP = NLU + NLG 
 
 NLP covers two major ---intersecting--- application-domains [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/).
 
@@ -53,15 +66,11 @@ Semantics  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / T
     
 </div>    
     
-
-
 Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_language_generation): While NLU focuses on computers to comprehend human language, NLG enables computers to write. Initially, NLG systems used templates to generate text. Based on some data or query, an NLG system would fill in the blank, like a game of Mad Libs. But over time, natural language generation systems have evolved with the application of hidden Markov chains, recurrent neural networks, and transformers, enabling more dynamic text generation in real time. Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly. It produces a human language text response based on some data input. This text can also be converted into a speech format through text-to-speech services.
 
 In summary, NLU is about both analysis and synthesis.  Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since this type of input is not "textual". Text summarization and chatbot are applications that involve both NLU and NLG. NLG also encompasses text summarization capabilities that generate summaries from input documents while maintaining the integrity of the information. 
 
-
-
-## NGRAM Code example 
+### NGRAM Code example 
 
 ```
 from nltk import ngrams
@@ -74,10 +83,7 @@ for grams in n_grams:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robvdw/Decision-Support-Systems-In-Allied-Healthcare/196a8b897c8f912d7417c0063616495e3bbd77aa?urlpath=lab%2Ftree%2FNotebooks%2FNGRAM-NLTK_V01.ipynb)
 
-***********
-***********
-
-# NLP OPEN-SOURCE Python Tools
+### NLP OPEN-SOURCE Python Tools
 
 To harnass NLP capabilities, there are high quality open-source NLP tools available allowing developers to discover valuable insights from unstructured texts.
 That is, dealing with text analysis problems like classification, word ambiguity, sentiment analysis etc.
@@ -98,11 +104,9 @@ AllenNLP | high-level configuration language to implement many common approaches
 FlairNLP | Get insight from text extraction, word embedding, named entity recognition, parts of speech tagging, and text classification | Sense Disambiguation + Classification, Sentiment Analysis | No  | Supports Biomedical Datasets | Business production
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
 
-
-***********
 ***********
 
-# Domain-specific (clinical) Language models in Dutch
+### Domain-specific (clinical) Language models in Dutch
 
 A major difficulty to allow for NLP of dutch clinical narratives/free-texts is the lack of AI-models. A wide range of AI-models are solely available
 in English. The [Huggingface Transformer framework](https://aclanthology.org/2020.emnlp-demos.6/) offers
@@ -116,9 +120,8 @@ NLP is widely performed. However, the majority of open-source NLP tools --- e.g.
 language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 
 ***********
-***********
 
-# Project Principles 
+## Project Principles 
 
 Discover Research Phase | Define Synthesis Phase | Develop Ideation Phase | Deliver Implementation Phase                                                                                                                        
 ------------------------|------------------------|------------------------|------------------------------
@@ -142,27 +145,10 @@ Big Data (Acuisition/Aggregation) Gathering Empirical (Sensor/IoT Measuring/Samp
 (Adapted from http://datasciencemanifesto.org/)
 
 ***********
-***********
 
-# Project AIM
 
-This project aims to create a medical corpus derived from medical case-studies through the use of data enigineering [DE] + data science [DS] techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform basic NLP techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE).
 
-That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor IvG and other educational or research institutes of [Rotterdam University of Applied Sciences](https://www.rotterdamuas.com/collaboration/).
-
-The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-drive-securely-and-easily-store-and-share-research-data) which is a EU GDPR complient service from SURF.nl. 
-
-***********
-***********
-
-# Translational Practice-based Research
-This DSS research project focuses on improving allied heathcare. It is a highly transdisciplinary collaboration between 
-[IGV](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/), the [CMI Minor Data Enginering](https://www.hogeschoolrotterdam.nl/samenwerking/samenwerkingsportfolio/minor-big-data-engineering---sustainability/) and the [Prometheus Data-Lab](https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/creating-010/medewerkers/rob-van-der-willigen/). Supported is geven by the [Program for AI & Ethics](https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/over-ons/#flex), [DCC SURF-pilot project](https://www.surf.nl/en/news/six-new-pilots-awarded-in-dcc-for-practice-based-research) and [Data Supported Healthcare: Zorgtech010 data-science unit](https://www.hogeschoolrotterdam.nl/onderzoek/projecten-en-publicaties/zorginnovatie/zorginnovatie-met-technologie/Data-Supported-Healthcare/).
-
-***********
-***********
-
-# References
+## References
 
 1. NLP reference documentation: https://miro.com/app/board/uXjVOa_6fiQ=/?share_link_id=647822840290
 
@@ -185,35 +171,4 @@ This DSS research project focuses on improving allied heathcare. It is a highly 
 10. https://www.hogeschoolrotterdam.nl/go/ai-en-ethiek/projecten/postdoc-voucher-project-rob-van-der-willigen-designing-neural-networks-through-sensory-ecology/
 
 11. [Inventory of Tools for Dutch Clinical Language Processing, 2012](https://doi.org/10.3233/978-1-61499-101-4-245)
-
-
-# CHARTS + CODING
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
-
-```mermaid
-graph TD;
-    A[start] --> B{second node asking a question}
-    B -->|Yes| C[OK]
-    C --> D[go back]
-    D --> B
-    B ---->|No| E[End]
-```
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-
-
-
 

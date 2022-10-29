@@ -29,11 +29,11 @@ language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 
 ## Research Aim: Building a Custom Corpus
 
-This project aims [1] to share pratical knowledge about how to apply NLP techniques and [2] to create a custom medical corpus derived from clinical naratives ---allied-healthcare medical case-studies--- through the use of data enigineering [DE](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) + data science [DS](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
+This project aims [1] to share pratical knowledge about how to apply NLP techniques and [2] to create a custom, domain specific ---medical---  corpus derived from clinical naratives ---allied-healthcare medical case-studies--- through the use of data enigineering [DE](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) + data science [DS](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
 
 
     
-`A corpus can be large or small, though generally they consist of dozens or even hundreds of gigabytes of data inside of thousands of documents. Corpora are collections of related documents that contain natural language.`
+>A corpus can be large or small, though generally they consist of dozens or even hundreds of gigabytes of data inside of thousands of documents. Corpora are collections of related documents that contain natural language. Corpora can be annotated, meaning that the text or documents are labeled with the correct responses for supervised learning algorithms (e.g., to build a filter to detect spam email), or unannotated, making them candidates for topic modeling and document clustering (e.g., to explore shifts in latent themes within messages over time).
     
  
 

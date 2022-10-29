@@ -32,7 +32,7 @@ language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 This project aims [1] to share pratical knowledge about how to apply NLP techniques and [2] to create a custom, domain specific ---medical---  corpus derived from clinical naratives ---allied-healthcare medical case-studies--- through the use of data enigineering [DE](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) + data science [DS](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
 
 
-<img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/684692/198836027-6409cc14-5d87-42d0-96d8-67a6a9d6ca69.jpg">
+<img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/198836169-675e0b2f-a5ef-4e28-9083-d9dfef0e12ce.jpg">
 
 >A corpus can be large or small, though generally they consist of dozens or even hundreds of gigabytes of data inside of thousands of documents. Corpora are collections of related documents that contain natural language. Corpora can be annotated, meaning that the text or documents are labeled with the correct responses for supervised learning algorithms (e.g., to build a filter to detect spam email), or unannotated, making them candidates for topic modeling and document clustering (e.g., to explore shifts in latent themes within messages over time).
     

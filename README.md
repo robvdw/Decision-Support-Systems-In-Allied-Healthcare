@@ -27,9 +27,9 @@ language [Cornet et al. (2012)](https://doi.org/10.3233/978-1-61499-101-4-245).
 
 ***********
 
-## Research Aim
+## Research Aim: Building a Custom Corpus
 
-This project aims [1] to share pratical knowledge about how to apply NLP techniques and [2] to create a medical corpus derived from clinical naratives ---allied-healthcare medical case-studies--- through the use of data enigineering [DE](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) + data science [DS](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
+This project aims [1] to share pratical knowledge about how to apply NLP techniques and [2] to create a custom medical corpus derived from clinical naratives ---allied-healthcare medical case-studies--- through the use of data enigineering [DE](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) + data science [DS](https://robfvdw.medium.com/a-generic-approach-to-data-driven-activities-d85ad558b5fa) techniques and standards such as The CRoss Industry Standard Process for Data Mining [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/). 
 
 The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
 

@@ -97,6 +97,38 @@ In summary, NLU is about both analysis and synthesis.  Sentiment analysis and se
 
 ***********
 
+### Pre-Processing of free-texts & the NLP-data Pipeline
+
+As mentioned earlier, NLP software typically analyzes text by breaking it up into
+words (tokens) and sentences. Hence, any NLP pipeline has to start with a reliable
+system to split the text into sentences (sentence segmentation) and further split a sentence
+into words (word tokenization). On the surface, these seem like simple tasks,
+and you may wonder why they need special treatment.
+
+<img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/199322588-ba077b2e-8f09-4248-9259-0b61f77c28b1.png">
+
+
+>Let’s start with a simple question: we already did some cleanup in the previous step;
+why do we still have to pre-process text? Consider a scenario where we’re processing
+text from Wikipedia pages about individuals to extract biographical information
+about them. Our data acquisition starts with crawling such pages. However, our
+crawled data is all in HTML, with a lot of boilerplate from Wikipedia (e.g., all the
+links in the left panel), possibly the presence of links to multiple languages (in their
+script), etc. All such information is irrelevant for extracting features from text (in
+most cases). Our text-extraction step removed all this and gave us the plain text of the
+article we need. However, all NLP software typically works at the sentence level and
+expects a separation of words at the minimum. So, we need some way to split a text
+into words and sentences before proceeding further in a processing pipeline. Sometimes,
+we need to remove special characters and digits, and sometimes, we don’t care
+whether a word is in upper or lowercase and want everything in lowercase. Many
+more decisions like this are made while processing text. Such decisions are addressed
+during the pre-processing step of the NLP pipeline.
+
+
+
+
+***********
+
 ### NLP OPEN-SOURCE Python Tools
 
 To harnass NLP capabilities, there are high quality open-source NLP tools available allowing developers to discover valuable insights from unstructured texts.
@@ -117,6 +149,9 @@ PyTorch-NLP | Word2Vector Encoding, Dataset Sampling | Neural Network pre-traine
 AllenNLP | high-level configuration language to implement many common approaches in NLP, such as transformer experiments, multi-task training, vision+language tasks, fairness, and interpretability | Solving natural language processing tasks in PyTorch |  Yes | Experimentation | Developement has stopped
 FlairNLP | Get insight from text extraction, word embedding, named entity recognition, parts of speech tagging, and text classification | Sense Disambiguation + Classification, Sentiment Analysis | No  | Supports Biomedical Datasets | Business production
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
+
+
+***********
 
 ### NGRAM Code example 
 

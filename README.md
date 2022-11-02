@@ -124,7 +124,19 @@ whether a word is in upper or lowercase and want everything in lowercase. Many
 more decisions like this are made while processing text. Such decisions are addressed
 during the pre-processing step of the NLP pipeline.
 
-
+```mermaid
+flowchart TB
+    a1-->c1
+    subgraph A
+   Text-->a2
+    end
+    subgraph B
+    Text-->Sentence_Tokenisation
+    end
+    subgraph C
+    c1-->c2
+    end
+```
 
 
 ***********

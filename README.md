@@ -36,14 +36,9 @@ This project aims [1] to share pratical knowledge about how to apply NLP techniq
 
 >A corpus can be large or small, though generally they consist of dozens or even hundreds of gigabytes of data inside of thousands of documents. Corpora are collections of related documents that contain natural language. Corpora can be annotated, meaning that the text or documents are labeled with the correct responses for supervised learning algorithms (e.g., to build a filter to detect spam email), or unannotated, making them candidates for topic modeling and document clustering (e.g., to explore shifts in latent themes within messages over time).
     
-
-
-
 The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
 
 That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor [IVG](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/) and other educational or research institutes of Rotterdam University of Applied Sciences [(RUAS)](https://www.rotterdamuas.com/collaboration/).
-
-
 
 ***********
 
@@ -85,7 +80,7 @@ Syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic --
  
 
 <details>
- <summary><h3>NLP covers two major ---intersecting--- application-domains NLU + NLG</h3></summary>
+ <summary><h3>NLP covers two application-domains NLU + NLG</h3></summary>
 
 Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd a "Hard AI-problem". The ambiguity and creativity of human language are just two of the characteristics that make NLP a demanding area to work in. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU is commonly used in [text mining](https://en.wikipedia.org/wiki/Text_mining) to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores. NLU can also establish a relevant [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)): a data structure which specifies the relationships between words and phrases. While humans naturally do this in [conversation](https://en.wikipedia.org/wiki/Discourse_analysis), the combination of these analyses is required for a machine to understand the intended meaning of different texts.
     
@@ -93,7 +88,7 @@ Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_langua
 
 </details>
 
-In summary, NLU is about both analysis and synthesis.  Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since this type of input is not "textual". Text summarization and chatbot are applications that involve both [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/). NLG also encompasses text summarization capabilities that generate summaries from input documents while maintaining the integrity of the information. 
+NLU is about both analysis and synthesis ---understanding---.  Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG ---generating--- task since this type of input is not "textual". Text summarization and chatbot are applications that involve both [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/). NLG also encompasses text summarization capabilities that generate summaries from input documents while maintaining the integrity of the information. 
 
 ***********
 
@@ -108,36 +103,13 @@ and you may wonder why they need special treatment.
 <img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/199322588-ba077b2e-8f09-4248-9259-0b61f77c28b1.png">
 
 
->Let’s start with a simple question: we already did some cleanup in the previous step;
-why do we still have to pre-process text? Consider a scenario where we’re processing
-text from Wikipedia pages about individuals to extract biographical information
-about them. Our data acquisition starts with crawling such pages. However, our
-crawled data is all in HTML, with a lot of boilerplate from Wikipedia (e.g., all the
-links in the left panel), possibly the presence of links to multiple languages (in their
-script), etc. All such information is irrelevant for extracting features from text (in
-most cases). Our text-extraction step removed all this and gave us the plain text of the
-article we need. However, all NLP software typically works at the sentence level and
+>NLP software typically works at the sentence level and
 expects a separation of words at the minimum. So, we need some way to split a text
 into words and sentences before proceeding further in a processing pipeline. Sometimes,
 we need to remove special characters and digits, and sometimes, we don’t care
 whether a word is in upper or lowercase and want everything in lowercase. Many
 more decisions like this are made while processing text. Such decisions are addressed
 during the pre-processing step of the NLP pipeline.
-
-```mermaid
-flowchart TB
-    a1-->c1
-    subgraph A
-   Text-->a2
-    end
-    subgraph B
-    Text-->Sentence_Tokenisation
-    end
-    subgraph C
-    c1-->c2
-    end
-```
-
 
 ***********
 

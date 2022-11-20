@@ -33,6 +33,7 @@ This project aims [1] to share pratical knowledge about how to apply NLP techniq
 
 
 <img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/198836169-675e0b2f-a5ef-4e28-9083-d9dfef0e12ce.jpg">
+<img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/202930422-a1612d61-fe92-40cc-aaad-0aff719b29e0.jpg">
 
 >A corpus can be large or small, though generally they consist of dozens or even hundreds of gigabytes of data inside of thousands of documents. Corpora are collections of related documents that contain natural language. Corpora can be annotated, meaning that the text or documents are labeled with the correct responses for supervised learning algorithms (e.g., to build a filter to detect spam email), or unannotated, making them candidates for topic modeling and document clustering (e.g., to explore shifts in latent themes within messages over time).
     

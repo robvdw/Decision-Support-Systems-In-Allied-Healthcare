@@ -33,13 +33,17 @@ This project aims [1] to share pratical knowledge about how to apply NLP techniq
 
 
 <img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/198836169-675e0b2f-a5ef-4e28-9083-d9dfef0e12ce.jpg">
-<img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/202930422-a1612d61-fe92-40cc-aaad-0aff719b29e0.jpg">
 
 >A corpus can be large or small, though generally they consist of dozens or even hundreds of gigabytes of data inside of thousands of documents. Corpora are collections of related documents that contain natural language. Corpora can be annotated, meaning that the text or documents are labeled with the correct responses for supervised learning algorithms (e.g., to build a filter to detect spam email), or unannotated, making them candidates for topic modeling and document clustering (e.g., to explore shifts in latent themes within messages over time).
     
+
+
+
 The endproduct should be in the form of a wel documented digital-protocol that can be readily employed by allied healthcare processionals to perform semantic and/or pragmatic NLP-techniques such as Named Entity Recognition (NER) and Relationship Extraction (RE) on dutch clinical narratives.
 
 That is, utimately making clinical data freely exchangeable between the various professionals within the bachelor [IVG](https://www.hogeschoolrotterdam.nl/samenwerking/instituten/instituut-voor-gezondheidszorg/contact/) and other educational or research institutes of Rotterdam University of Applied Sciences [(RUAS)](https://www.rotterdamuas.com/collaboration/).
+
+
 
 ***********
 
@@ -56,13 +60,9 @@ The raw data wil be stored on [Research-Drive](https://www.surf.nl/en/research-d
 [Natural Language Processing (NLP)](https://www.ibm.com/cloud/learn/natural-language-processing) is a hybrid AI-discipline that is developed from [linguistics](https://en.wikipedia.org/wiki/Linguistics) and [computer science](https://en.wikipedia.org/wiki/Computer_science) to make human language intelligible to machines. 
 The computers’ availability in the 1960s gave rise to NLP applications on computers known as [computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics). The structure of language is hierarchical comprising of seven levels each that contrain the use of computational linguistics. 
 
-<br>
-
-
 <div align="center">
     
-    
-level top-to-bottom  | Structure | refers to 
+level | Structure | refers to 
 ----- | ----------| --------------------------------------------------------
 [1] | Phonology   | Elementary sounds
 [2] | Morphology  | Elementary combinations of letters and sounds, called Morphemes
@@ -74,45 +74,24 @@ level top-to-bottom  | Structure | refers to
     
 </div>      
 
-<br>
-
 Syntactic ---[parsing](https://en.wikipedia.org/wiki/Parsing)--- and semantic ---[semiotics](https://en.wikipedia.org/wiki/Semiotics)--- analysis of text and speech to determine the meaning of a sentence. Syntax refers to the grammatical structure of a sentence, while semantics alludes to its intended meaning. By allowing computers to automatically analyze massive sets of data, NLP can find meaningful information in just milliseconds. 
 
- 
+NLP covers two major ---intersecting--- application-domains [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/). Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd a "Hard AI-problem". The ambiguity and creativity of human language are just two of the characteristics that make NLP a demanding area to work in. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU is commonly used in [text mining](https://en.wikipedia.org/wiki/Text_mining) to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores. NLU can also establish a relevant [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)): a data structure which specifies the relationships between words and phrases. While humans naturally do this in [conversation](https://en.wikipedia.org/wiki/Discourse_analysis), the combination of these analyses is required for a machine to understand the intended meaning of different texts.
 
-<details>
- <summary><h3>NLP covers two application-domains NLU + NLG</h3></summary>
-
-Natural Language Understanding [(NLU)](https://en.wikipedia.org/wiki/Natural-language_understanding): It is considerd a "Hard AI-problem". The ambiguity and creativity of human language are just two of the characteristics that make NLP a demanding area to work in. The goal is to resolve ambiguities, obtain context and understand the meaning of what's being said. In particular, it tackles the complexities of language beyond the basic sentence structure. NLU is commonly used in [text mining](https://en.wikipedia.org/wiki/Text_mining) to understand consumer attitudes. In particular, sentiment analysis enables brands to monitor their customer feedback more closely, allowing them to cluster positive and negative social media comments and track net promoter scores. NLU can also establish a relevant [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)): a data structure which specifies the relationships between words and phrases. While humans naturally do this in [conversation](https://en.wikipedia.org/wiki/Discourse_analysis), the combination of these analyses is required for a machine to understand the intended meaning of different texts.
+<div align="center">
+    
+Language Structure |               |  NLP Application
+------- | ------ | -------------
+Phonemes [speech & sounds] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Speech tot Text / Speaker identification / Text to Speech
+Morphenes & Lexemes [words] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Tokenization / Word Embeddings / PoS Tagging
+Syntax [phrases & sentences] |  ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Parsing / Entity Extraction / Relation Extraction
+Semantics  [meaning] |   ⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌⇌   | Summarization / Topic modeling  / Sentiment Analysis
+    
+</div>    
     
 Natural Language Generation [(NLG)](https://en.wikipedia.org/wiki/Natural_language_generation): While NLU focuses on computers to comprehend human language, NLG enables computers to write. Initially, NLG systems used templates to generate text. Based on some data or query, an NLG system would fill in the blank, like a game of Mad Libs. But over time, natural language generation systems have evolved with the application of hidden Markov chains, recurrent neural networks, and transformers, enabling more dynamic text generation in real time. Given an internal representation, this involves selecting the right words, forming phrases and sentences. Sentences need to ordered so that information is conveyed correctly. It produces a human language text response based on some data input. This text can also be converted into a speech format through text-to-speech services.
 
-</details>
-
-NLU is about both analysis and synthesis ---understanding---.  Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG ---generating--- task since this type of input is not "textual". Text summarization and chatbot are applications that involve both [NLU + NLG](https://www.ibm.com/blogs/watson/2020/11/nlp-vs-nlu-vs-nlg-the-differences-between-three-natural-language-processing-concepts/). NLG also encompasses text summarization capabilities that generate summaries from input documents while maintaining the integrity of the information. 
-
-***********
-
-### Pre-Processing of free-texts & the NLP-data Pipeline
-
-As mentioned earlier, NLP software typically analyzes text by breaking it up into
-words (tokens) and sentences. Hence, any NLP pipeline has to start with a reliable
-system to split the text into sentences (sentence segmentation) and further split a sentence
-into words (word tokenization). On the surface, these seem like simple tasks,
-and you may wonder why they need special treatment.
-
-<img align="right" width="200" height="250" src="https://user-images.githubusercontent.com/684692/199322588-ba077b2e-8f09-4248-9259-0b61f77c28b1.png">
-
-
->NLP software typically works at the sentence level and
-expects a separation of words at the minimum. So, we need some way to split a text
-into words and sentences before proceeding further in a processing pipeline. Sometimes,
-we need to remove special characters and digits, and sometimes, we don’t care
-whether a word is in upper or lowercase and want everything in lowercase. Many
-more decisions like this are made while processing text. Such decisions are addressed
-during the pre-processing step of the NLP pipeline.
-
-***********
+In summary, NLU is about both analysis and synthesis.  Sentiment analysis and semantic search are examples of NLU. Captioning an image or video is mainly an NLG task since this type of input is not "textual". Text summarization and chatbot are applications that involve both NLU and NLG. NLG also encompasses text summarization capabilities that generate summaries from input documents while maintaining the integrity of the information. 
 
 ### NLP OPEN-SOURCE Python Tools
 
@@ -134,9 +113,6 @@ PyTorch-NLP | Word2Vector Encoding, Dataset Sampling | Neural Network pre-traine
 AllenNLP | high-level configuration language to implement many common approaches in NLP, such as transformer experiments, multi-task training, vision+language tasks, fairness, and interpretability | Solving natural language processing tasks in PyTorch |  Yes | Experimentation | Developement has stopped
 FlairNLP | Get insight from text extraction, word embedding, named entity recognition, parts of speech tagging, and text classification | Sense Disambiguation + Classification, Sentiment Analysis | No  | Supports Biomedical Datasets | Business production
 Spark-NLP |  NLP-library for use with Apache Spark | Easy to scale by extending Apache Spark natively | Yes | Use of SOTA transformers such as BERT & ELMO at scale by extending Apache Spark natively | Beginners
-
-
-***********
 
 ### NGRAM Code example 
 
